@@ -1,0 +1,48 @@
+/* ---------- Lite mode ----------
+   No WebGL, reduced motion, data saver or 2G: no journey. A still hero poster, then the bag stage built
+   from the rendered bag images (components/LiteStage.ts), then the normal sections. */
+.lite #gl, .lite .loader { display: none; }
+.lite .hero-copy, .lite .scroll-hint { position: absolute; }
+.lite .journey {
+  height: 100vh; height: 100svh;
+  background: linear-gradient(90deg, rgb(10 7 5 / .75), rgb(10 7 5 / .1) 62%), url("/img/k/K1.webp") 61.5% 47% / cover no-repeat #000;
+}
+/* K1.webp is preloaded in index.html, so the poster paints as soon as the class is set */
+@media (max-width: 1023px) {
+  .lite .journey { background-image: linear-gradient(0deg, rgb(10 7 5 / .85), rgb(10 7 5 / 0) 55%), url("/img/k/K1.webp"); }
+}
+
+.lite .stage {
+  opacity: 1; pointer-events: auto; margin-top: 0; height: auto; min-height: 100vh; min-height: 100svh;
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 22px;
+  padding: 104px var(--gutter) 88px; overflow: hidden;
+  background: radial-gradient(ellipse at 50% 55%, var(--stage-warm), var(--roast-black) 70%);
+}
+.lite .stage__labels, .lite .stage__mobile-label { display: none; }
+.lite .stage__cta { position: static; transform: none !important; }
+.lite .stage::after { height: 80px; }
+
+.lite-stage { width: min(1080px, 100%); display: grid; justify-items: center; gap: 16px; transition: opacity .18s; }
+.lite-stage.is-swap { opacity: 0; }
+.lite-stage__row { display: grid; grid-template-columns: 1fr 1.35fr 1fr; align-items: end; width: 100%; gap: clamp(8px, 3vw, 40px); }
+.lite-bag { margin: 0; padding: 0; position: relative; display: grid; justify-items: center; gap: 10px; }
+.lite-bag__img { width: 100%; height: auto; max-height: 58vh; object-fit: contain; }
+.lite-bag--side { opacity: .78; transform: scale(.82); transform-origin: 50% 100%; transition: opacity .25s, transform .4s var(--ease-out); }
+.lite-bag--side:hover, .lite-bag--side:focus-visible { opacity: 1; transform: scale(.86); }
+.lite-bag__cap { font-size: 14px; font-weight: 600; color: var(--muted); }
+.lite-bag__cup { position: absolute; left: -10%; bottom: 1%; width: 32%; height: auto; }
+.lite-stage__label { margin: 0; display: grid; gap: 2px; text-align: center; }
+.lite-stage__label b { font-family: var(--font-display); font-weight: 700; font-size: clamp(26px, 3vw, 40px); line-height: 1.1; }
+[data-lang="bn"] .lite-stage__label b { font-family: var(--font-bn-display); font-weight: 400; }
+.lite-stage__label span { color: var(--muted); }
+.lite-stage__note { margin: 4px 0 0; max-width: 46ch; text-align: center; font-size: 13px; color: rgb(189 177 159 / .8); }
+.lite-stage__note a { color: var(--sonali-gold); text-decoration: underline; text-underline-offset: 3px; }
+
+@media (max-width: 639px) {
+  .lite-stage__row { grid-template-columns: .72fr 1.4fr .72fr; }
+  .lite-bag__cap { display: none; }
+  .lite .stage { padding-bottom: 72px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .lite-stage, .lite-bag--side { transition: none; }
+}

@@ -1,0 +1,16 @@
+# dependencies and build output (Netlify rebuilds dist/)
+node_modules/
+dist/
+
+# internal working notes: kept locally, not published
+CLAUDE.md
+SPEC.md
+PROGRESS.md
+ASSETS.md
+.claude/
+
+# local tooling output
+*.log
+.DS_Store
+Thumbs.db
+.netlify/

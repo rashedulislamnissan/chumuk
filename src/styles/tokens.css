@@ -1,0 +1,19 @@
+:root {
+  --roast-black: #16110E;   /* backgrounds */
+  --sonali-gold: #D4A24C;   /* glow rings, foil, accents */
+  --alpona-white: #F4EDE0;  /* text, Shada bag */
+  --clay: #B5553A;          /* secondary buttons, Roj bag */
+  --surface: #241C17;       /* cards */
+  --muted: #BDB19F;
+  --line: #3A2E25;
+  --glow-amber: 212 162 76; /* use as rgb(var(--glow-amber) / .4) */
+  --stage-warm: #3a2414;    /* warm radial glow behind the settled orbit stage */
+
+  --font-display: "Fraunces", Georgia, serif;
+  --font-body: "DM Sans", system-ui, sans-serif;
+  --font-bn-display: "Tiro Bangla", "Hind Siliguri", serif;
+  --font-bn-body: "Hind Siliguri", "Noto Sans Bengali", sans-serif;
+
+  --ease-out: cubic-bezier(.16, 1, .3, 1);
+  --gutter: clamp(16px, 4vw, 56px);
+}

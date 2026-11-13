@@ -1,0 +1,1622 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900">
+  <defs>
+    <radialGradient id="beanHi" cx="34%" cy="30%" r="80%">
+      <stop offset="0" stop-color="#fff" stop-opacity=".42"/><stop offset=".42" stop-color="#fff" stop-opacity="0"/>
+      <stop offset=".72" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".55"/>
+    </radialGradient>
+    <radialGradient id="pool" cx="50%" cy="46%" r="60%">
+      <stop offset="0" stop-color="#5A3518" stop-opacity=".9"/><stop offset=".55" stop-color="#2B1B10" stop-opacity=".6"/><stop offset="1" stop-color="#16110E" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2A1D14"/><stop offset="1" stop-color="#120D0A"/>
+    </linearGradient>
+    <linearGradient id="vshade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#000" stop-opacity=".45"/><stop offset=".35" stop-color="#000" stop-opacity="0"/>
+      <stop offset=".7" stop-color="#fff" stop-opacity=".06"/><stop offset="1" stop-color="#000" stop-opacity=".5"/>
+    </linearGradient>
+    <pattern id="jute" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(8)">
+      <rect width="10" height="10" fill="#8C6A44"/>
+      <path d="M0 2.5h10M0 7.5h10" stroke="#5E4529" stroke-width="1.6" opacity=".55"/>
+      <path d="M2.5 0v10M7.5 0v10" stroke="#B08A5A" stroke-width="1.4" opacity=".5"/>
+    </pattern>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" seed="3" result="n"/>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 .5  0 0 0 0 .42  0 0 0 0 .33  0 0 0 .55 -.18"/>
+      <feComposite in2="SourceGraphic" operator="in"/>
+    </filter>
+    <filter id="soft"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="10" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1200" height="900" fill="#16110E"/>
+  <ellipse cx="600" cy="414" rx="744" ry="558" fill="url(#pool)"/>
+  <rect x="0" y="760" width="1200" height="140" fill="url(#floor)"/>
+    <path d="M0 760 H1200" stroke="#D4A24C" stroke-opacity=".18" stroke-width="1.5"/><rect x="640" y="0" width="56" height="300" fill="#2A2320"/><rect x="640" y="0" width="56" height="300" fill="url(#vshade)"/>
+        <rect x="632" y="60" width="72" height="12" rx="3" fill="#4A3D35"/><rect x="632" y="180" width="72" height="12" rx="3" fill="#4A3D35"/><path d="M720 280 c-14 -30 14 -50 0 -80 c-14 -30 14 -50 0 -80" fill="none" stroke="#F1C979" stroke-width="2" stroke-linecap="round" opacity="0.12"/><path d="M746 280 c-14 -30 14 -50 0 -80 c-14 -30 14 -50 0 -80" fill="none" stroke="#F1C979" stroke-width="2" stroke-linecap="round" opacity="0.16999999999999998"/><path d="M772 280 c-14 -30 14 -50 0 -80 c-14 -30 14 -50 0 -80" fill="none" stroke="#F1C979" stroke-width="2" stroke-linecap="round" opacity="0.22"/><path d="M798 280 c-14 -30 14 -50 0 -80 c-14 -30 14 -50 0 -80" fill="none" stroke="#F1C979" stroke-width="2" stroke-linecap="round" opacity="0.27"/><path d="M824 280 c-14 -30 14 -50 0 -80 c-14 -30 14 -50 0 -80" fill="none" stroke="#F1C979" stroke-width="2" stroke-linecap="round" opacity="0.32"/><ellipse cx="520" cy="766" rx="300" ry="30" fill="#000" opacity=".6" filter="url(#soft)"/>
+        <rect x="300" y="610" width="18" height="150" fill="#2A2320"/><rect x="722" y="610" width="18" height="150" fill="#2A2320"/>
+        <rect x="250" y="300" width="540" height="330" rx="34" fill="#2A2320"/>
+        <rect x="250" y="300" width="540" height="330" rx="34" fill="url(#vshade)"/>
+        <rect x="250" y="300" width="540" height="330" rx="34" fill="none" stroke="#D4A24C" stroke-opacity=".5" stroke-width="2"/>
+        <path d="M270 340 H770 M270 590 H770" stroke="#D4A24C" stroke-opacity=".25" stroke-width="1.5"/><rect x="360" y="636" width="320" height="70" rx="12" fill="#0d0907" stroke="#D4A24C" stroke-opacity=".4" stroke-width="2"/><path d="M373 700 C372 684.9980199336987 382 678.9972279071782 384 669.9960398673975 C388 681.9976239204385 396 684.9980199336987 395 700 Z" fill="#E8792A" filter="url(#glow)" opacity=".9"/>
+          <path d="M379 700 C379 689.4986139535891 384 684.9980199336987 384 681.9976239204385 C386 687.998415946959 389 690.9988119602192 389 700 Z" fill="#7FB0FF" opacity=".75"/><path d="M407 700 C406 684.7209396047713 416 678.6093154466798 418 669.4418792095425 C422 681.6651275257256 430 684.7209396047713 429 700 Z" fill="#E8792A" filter="url(#glow)" opacity=".9"/>
+          <path d="M413 700 C413 689.3046577233399 418 684.7209396047713 418 681.6651275257256 C420 687.776751683817 423 690.8325637628627 423 700 Z" fill="#7FB0FF" opacity=".75"/><path d="M441 700 C440 680.831853487838 450 673.1645948829731 452 661.6637069756758 C456 676.9982241854055 464 680.831853487838 463 700 Z" fill="#E8792A" filter="url(#glow)" opacity=".9"/>
+          <path d="M447 700 C447 686.5822974414865 452 680.831853487838 452 676.9982241854055 C454 684.6654827902703 457 688.4991120927027 457 700 Z" fill="#7FB0FF" opacity=".75"/><path d="M475 700 C474 678.9615166256777 484 670.5461232759488 486 657.9230332513555 C490 674.7538199508133 498 678.9615166256777 497 700 Z" fill="#E8792A" filter="url(#glow)" opacity=".9"/>
+          <path d="M481 700 C481 685.2730616379744 486 678.9615166256777 486 674.7538199508133 C488 683.1692133005422 491 687.3769099754066 491 700 Z" fill="#7FB0FF" opacity=".75"/><path d="M509 700 C508 682.2098889385442 518 675.0938445139619 520 664.4197778770884 C524 678.651866726253 532 682.2098889385442 531 700 Z" fill="#E8792A" filter="url(#glow)" opacity=".9"/>
+          <path d="M515 700 C515 687.5469222569809 520 682.2098889385442 520 678.651866726253 C522 685.7679111508354 525 689.3259333631265 525 700 Z" fill="#7FB0FF" opacity=".75"/><path d="M543 700 C542 684.6033258639306 552 678.444656209503 554 669.2066517278614 C558 681.5239910367169 566 684.6033258639306 565 700 Z" fill="#E8792A" filter="url(#glow)" opacity=".9"/>
+          <path d="M549 700 C549 689.2223281047515 554 684.6033258639306 554 681.5239910367169 C556 687.6826606911445 559 690.7619955183584 559 700 Z" fill="#7FB0FF" opacity=".75"/><path d="M577 700 C576 684.0977121024371 586 677.736796943412 588 668.1954242048743 C592 680.9172545229245 600 684.0977121024371 599 700 Z" fill="#E8792A" filter="url(#glow)" opacity=".9"/>
+          <path d="M583 700 C583 688.868398471706 588 684.0977121024371 588 680.9172545229245 C590 687.2781696819497 593 690.4586272614623 593 700 Z" fill="#7FB0FF" opacity=".75"/><path d="M611 700 C610 678.247226634293 620 669.5461172880104 622 656.4944532685862 C626 673.8966719611517 634 678.247226634293 633 700 Z" fill="#E8792A" filter="url(#glow)" opacity=".9"/>
+          <path d="M617 700 C617 684.7730586440051 622 678.247226634293 622 673.8966719611517 C624 682.5977813074345 627 686.9483359805758 627 700 Z" fill="#7FB0FF" opacity=".75"/><path d="M645 700 C644 678.1380093252641 654 669.3932130553696 656 656.276018650528 C660 673.7656111903168 668 678.1380093252641 667 700 Z" fill="#E8792A" filter="url(#glow)" opacity=".9"/>
+          <path d="M651 700 C651 684.6966065276848 656 678.1380093252641 656 673.7656111903168 C658 682.5104074602112 661 686.8828055951584 661 700 Z" fill="#7FB0FF" opacity=".75"/><path d="M410 300 L360 170 H600 L550 300 Z" fill="#4A3D35"/><path d="M410 300 L360 170 H600 L550 300 Z" fill="url(#vshade)"/>
+        <path d="M410 300 L360 170 H600 L550 300" fill="none" stroke="#D4A24C" stroke-opacity=".5" stroke-width="2"/>
+        <ellipse cx="480" cy="170" rx="120" ry="18" fill="#3b382a"/><g transform="translate(468.7 144.6) rotate(12.3)">
+    <ellipse rx="12" ry="8.4" fill="#A9AE80"/>
+    <ellipse rx="12" ry="8.4" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9.8 0 C-3.6 -3.8 3.6 3.8 9.8 0" fill="none" stroke="#5b5a3a" stroke-width="1.3" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="12" ry="8.4" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(483.8 145.1) rotate(113)">
+    <ellipse rx="12.1" ry="8.5" fill="#9CA474"/>
+    <ellipse rx="12.1" ry="8.5" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-10 0 C-3.6 -3.8 3.6 3.8 10 0" fill="none" stroke="#5b5a3a" stroke-width="1.4" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="12.1" ry="8.5" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(479.6 145.8) rotate(164.7)">
+    <ellipse rx="9.7" ry="6.8" fill="#B9BC8F"/>
+    <ellipse rx="9.7" ry="6.8" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-8 0 C-2.9 -3.1 2.9 3.1 8 0" fill="none" stroke="#5b5a3a" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="9.7" ry="6.8" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(452.1 146.5) rotate(60.8)">
+    <ellipse rx="10.9" ry="7.6" fill="#A9AE80"/>
+    <ellipse rx="10.9" ry="7.6" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-8.9 0 C-3.3 -3.4 3.3 3.4 8.9 0" fill="none" stroke="#5b5a3a" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="10.9" ry="7.6" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(475.7 147.1) rotate(107.7)">
+    <ellipse rx="12.2" ry="8.5" fill="#A9AE80"/>
+    <ellipse rx="12.2" ry="8.5" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-10 0 C-3.7 -3.9 3.7 3.9 10 0" fill="none" stroke="#5b5a3a" stroke-width="1.4" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="12.2" ry="8.5" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(515.8 150.4) rotate(50.3)">
+    <ellipse rx="11" ry="7.7" fill="#A9AE80"/>
+    <ellipse rx="11" ry="7.7" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9 0 C-3.3 -3.5 3.3 3.5 9 0" fill="none" stroke="#5b5a3a" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11" ry="7.7" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(500.8 150.8) rotate(57.2)">
+    <ellipse rx="10.6" ry="7.4" fill="#B9BC8F"/>
+    <ellipse rx="10.6" ry="7.4" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-8.7 0 C-3.2 -3.3 3.2 3.3 8.7 0" fill="none" stroke="#5b5a3a" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="10.6" ry="7.4" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(459.6 150.9) rotate(102.4)">
+    <ellipse rx="10" ry="7" fill="#B9BC8F"/>
+    <ellipse rx="10" ry="7" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-8.2 0 C-3 -3.1 3 3.1 8.2 0" fill="none" stroke="#5b5a3a" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="10" ry="7" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(452.3 151.5) rotate(136.6)">
+    <ellipse rx="10.3" ry="7.2" fill="#A9AE80"/>
+    <ellipse rx="10.3" ry="7.2" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-8.4 0 C-3.1 -3.2 3.1 3.2 8.4 0" fill="none" stroke="#5b5a3a" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="10.3" ry="7.2" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(511.6 152.2) rotate(59.7)">
+    <ellipse rx="10.6" ry="7.4" fill="#A9AE80"/>
+    <ellipse rx="10.6" ry="7.4" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-8.7 0 C-3.2 -3.3 3.2 3.3 8.7 0" fill="none" stroke="#5b5a3a" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="10.6" ry="7.4" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(438.8 152.7) rotate(126.2)">
+    <ellipse rx="11.2" ry="7.9" fill="#9CA474"/>
+    <ellipse rx="11.2" ry="7.9" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9.2 0 C-3.4 -3.5 3.4 3.5 9.2 0" fill="none" stroke="#5b5a3a" stroke-width="1.3" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11.2" ry="7.9" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(538.3 154.4) rotate(18.2)">
+    <ellipse rx="9.7" ry="6.8" fill="#9CA474"/>
+    <ellipse rx="9.7" ry="6.8" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-7.9 0 C-2.9 -3 2.9 3 7.9 0" fill="none" stroke="#5b5a3a" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="9.7" ry="6.8" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(475.6 154.8) rotate(94.3)">
+    <ellipse rx="12.6" ry="8.8" fill="#9CA474"/>
+    <ellipse rx="12.6" ry="8.8" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-10.3 0 C-3.8 -4 3.8 4 10.3 0" fill="none" stroke="#5b5a3a" stroke-width="1.4" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="12.6" ry="8.8" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(440 156) rotate(30.4)">
+    <ellipse rx="12.5" ry="8.8" fill="#B9BC8F"/>
+    <ellipse rx="12.5" ry="8.8" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-10.3 0 C-3.8 -3.9 3.8 3.9 10.3 0" fill="none" stroke="#5b5a3a" stroke-width="1.4" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="12.5" ry="8.8" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(531.9 156.5) rotate(129.4)">
+    <ellipse rx="12.5" ry="8.8" fill="#A9AE80"/>
+    <ellipse rx="12.5" ry="8.8" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-10.3 0 C-3.8 -4 3.8 4 10.3 0" fill="none" stroke="#5b5a3a" stroke-width="1.4" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="12.5" ry="8.8" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(446 157.1) rotate(141.3)">
+    <ellipse rx="11.3" ry="7.9" fill="#9CA474"/>
+    <ellipse rx="11.3" ry="7.9" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9.3 0 C-3.4 -3.6 3.4 3.6 9.3 0" fill="none" stroke="#5b5a3a" stroke-width="1.3" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11.3" ry="7.9" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(414.3 158.1) rotate(145.3)">
+    <ellipse rx="11.3" ry="7.9" fill="#C2C29A"/>
+    <ellipse rx="11.3" ry="7.9" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9.2 0 C-3.4 -3.6 3.4 3.6 9.2 0" fill="none" stroke="#5b5a3a" stroke-width="1.3" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11.3" ry="7.9" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(426.8 158.7) rotate(48.3)">
+    <ellipse rx="10.3" ry="7.2" fill="#A9AE80"/>
+    <ellipse rx="10.3" ry="7.2" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-8.5 0 C-3.1 -3.3 3.1 3.3 8.5 0" fill="none" stroke="#5b5a3a" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="10.3" ry="7.2" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(509.9 159) rotate(28.2)">
+    <ellipse rx="11.7" ry="8.2" fill="#A9AE80"/>
+    <ellipse rx="11.7" ry="8.2" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9.6 0 C-3.5 -3.7 3.5 3.7 9.6 0" fill="none" stroke="#5b5a3a" stroke-width="1.3" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11.7" ry="8.2" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(433.6 159.3) rotate(94.8)">
+    <ellipse rx="11.5" ry="8" fill="#C2C29A"/>
+    <ellipse rx="11.5" ry="8" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9.4 0 C-3.4 -3.6 3.4 3.6 9.4 0" fill="none" stroke="#5b5a3a" stroke-width="1.3" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11.5" ry="8" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(445.5 159.4) rotate(163.7)">
+    <ellipse rx="11.4" ry="8" fill="#C2C29A"/>
+    <ellipse rx="11.4" ry="8" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9.3 0 C-3.4 -3.6 3.4 3.6 9.3 0" fill="none" stroke="#5b5a3a" stroke-width="1.3" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11.4" ry="8" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(465.7 159.5) rotate(92.7)">
+    <ellipse rx="10.5" ry="7.4" fill="#A9AE80"/>
+    <ellipse rx="10.5" ry="7.4" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-8.6 0 C-3.2 -3.3 3.2 3.3 8.6 0" fill="none" stroke="#5b5a3a" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="10.5" ry="7.4" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(522.2 160) rotate(50)">
+    <ellipse rx="12.3" ry="8.6" fill="#C2C29A"/>
+    <ellipse rx="12.3" ry="8.6" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-10.1 0 C-3.7 -3.9 3.7 3.9 10.1 0" fill="none" stroke="#5b5a3a" stroke-width="1.4" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="12.3" ry="8.6" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(469.1 160.2) rotate(165.6)">
+    <ellipse rx="11.4" ry="8" fill="#B9BC8F"/>
+    <ellipse rx="11.4" ry="8" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9.3 0 C-3.4 -3.6 3.4 3.6 9.3 0" fill="none" stroke="#5b5a3a" stroke-width="1.3" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11.4" ry="8" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(424.1 160.5) rotate(144)">
+    <ellipse rx="9.5" ry="6.6" fill="#9CA474"/>
+    <ellipse rx="9.5" ry="6.6" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-7.8 0 C-2.8 -3 2.8 3 7.8 0" fill="none" stroke="#5b5a3a" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="9.5" ry="6.6" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(450.5 161.8) rotate(151.2)">
+    <ellipse rx="9.9" ry="6.9" fill="#B9BC8F"/>
+    <ellipse rx="9.9" ry="6.9" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-8.1 0 C-3 -3.1 3 3.1 8.1 0" fill="none" stroke="#5b5a3a" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="9.9" ry="6.9" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(470.2 162.1) rotate(99.6)">
+    <ellipse rx="9.5" ry="6.6" fill="#C2C29A"/>
+    <ellipse rx="9.5" ry="6.6" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-7.8 0 C-2.8 -3 2.8 3 7.8 0" fill="none" stroke="#5b5a3a" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="9.5" ry="6.6" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(492.4 162.1) rotate(136.4)">
+    <ellipse rx="12.4" ry="8.7" fill="#9CA474"/>
+    <ellipse rx="12.4" ry="8.7" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-10.1 0 C-3.7 -3.9 3.7 3.9 10.1 0" fill="none" stroke="#5b5a3a" stroke-width="1.4" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="12.4" ry="8.7" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(463 163.2) rotate(131.3)">
+    <ellipse rx="11.2" ry="7.9" fill="#9CA474"/>
+    <ellipse rx="11.2" ry="7.9" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9.2 0 C-3.4 -3.5 3.4 3.5 9.2 0" fill="none" stroke="#5b5a3a" stroke-width="1.3" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11.2" ry="7.9" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(466.4 163.3) rotate(112.3)">
+    <ellipse rx="10.6" ry="7.4" fill="#B9BC8F"/>
+    <ellipse rx="10.6" ry="7.4" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-8.7 0 C-3.2 -3.3 3.2 3.3 8.7 0" fill="none" stroke="#5b5a3a" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="10.6" ry="7.4" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(541.5 163.7) rotate(106.2)">
+    <ellipse rx="12" ry="8.4" fill="#C2C29A"/>
+    <ellipse rx="12" ry="8.4" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9.9 0 C-3.6 -3.8 3.6 3.8 9.9 0" fill="none" stroke="#5b5a3a" stroke-width="1.3" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="12" ry="8.4" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(463.1 163.8) rotate(38)">
+    <ellipse rx="12.6" ry="8.8" fill="#A9AE80"/>
+    <ellipse rx="12.6" ry="8.8" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-10.3 0 C-3.8 -4 3.8 4 10.3 0" fill="none" stroke="#5b5a3a" stroke-width="1.4" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="12.6" ry="8.8" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(397.8 164.2) rotate(167.3)">
+    <ellipse rx="10.9" ry="7.6" fill="#9CA474"/>
+    <ellipse rx="10.9" ry="7.6" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-8.9 0 C-3.3 -3.4 3.3 3.4 8.9 0" fill="none" stroke="#5b5a3a" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="10.9" ry="7.6" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(560.2 164.5) rotate(82.6)">
+    <ellipse rx="11.8" ry="8.3" fill="#B9BC8F"/>
+    <ellipse rx="11.8" ry="8.3" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9.7 0 C-3.6 -3.7 3.6 3.7 9.7 0" fill="none" stroke="#5b5a3a" stroke-width="1.3" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11.8" ry="8.3" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(459.5 164.8) rotate(163.4)">
+    <ellipse rx="11.6" ry="8.1" fill="#B9BC8F"/>
+    <ellipse rx="11.6" ry="8.1" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9.5 0 C-3.5 -3.7 3.5 3.7 9.5 0" fill="none" stroke="#5b5a3a" stroke-width="1.3" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11.6" ry="8.1" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(478.1 165.4) rotate(4.4)">
+    <ellipse rx="9.7" ry="6.8" fill="#A9AE80"/>
+    <ellipse rx="9.7" ry="6.8" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-8 0 C-2.9 -3.1 2.9 3.1 8 0" fill="none" stroke="#5b5a3a" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="9.7" ry="6.8" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(478.2 165.5) rotate(61.9)">
+    <ellipse rx="11.6" ry="8.1" fill="#B9BC8F"/>
+    <ellipse rx="11.6" ry="8.1" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9.5 0 C-3.5 -3.7 3.5 3.7 9.5 0" fill="none" stroke="#5b5a3a" stroke-width="1.3" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11.6" ry="8.1" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(511.2 165.8) rotate(141.9)">
+    <ellipse rx="12" ry="8.4" fill="#9CA474"/>
+    <ellipse rx="12" ry="8.4" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9.9 0 C-3.6 -3.8 3.6 3.8 9.9 0" fill="none" stroke="#5b5a3a" stroke-width="1.3" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="12" ry="8.4" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(532.8 166.3) rotate(19.9)">
+    <ellipse rx="10.9" ry="7.6" fill="#A9AE80"/>
+    <ellipse rx="10.9" ry="7.6" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9 0 C-3.3 -3.4 3.3 3.4 9 0" fill="none" stroke="#5b5a3a" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="10.9" ry="7.6" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(521.1 166.4) rotate(56.2)">
+    <ellipse rx="12.1" ry="8.4" fill="#9CA474"/>
+    <ellipse rx="12.1" ry="8.4" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9.9 0 C-3.6 -3.8 3.6 3.8 9.9 0" fill="none" stroke="#5b5a3a" stroke-width="1.4" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="12.1" ry="8.4" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(414.6 166.7) rotate(74.1)">
+    <ellipse rx="11.3" ry="7.9" fill="#C2C29A"/>
+    <ellipse rx="11.3" ry="7.9" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9.3 0 C-3.4 -3.6 3.4 3.6 9.3 0" fill="none" stroke="#5b5a3a" stroke-width="1.3" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11.3" ry="7.9" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(538.5 166.9) rotate(86.8)">
+    <ellipse rx="11.7" ry="8.2" fill="#C2C29A"/>
+    <ellipse rx="11.7" ry="8.2" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9.6 0 C-3.5 -3.7 3.5 3.7 9.6 0" fill="none" stroke="#5b5a3a" stroke-width="1.3" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11.7" ry="8.2" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(413.8 166.9) rotate(91.4)">
+    <ellipse rx="12.2" ry="8.5" fill="#9CA474"/>
+    <ellipse rx="12.2" ry="8.5" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-10 0 C-3.7 -3.9 3.7 3.9 10 0" fill="none" stroke="#5b5a3a" stroke-width="1.4" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="12.2" ry="8.5" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(507.9 167) rotate(46.8)">
+    <ellipse rx="10.2" ry="7.2" fill="#B9BC8F"/>
+    <ellipse rx="10.2" ry="7.2" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-8.4 0 C-3.1 -3.2 3.1 3.2 8.4 0" fill="none" stroke="#5b5a3a" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="10.2" ry="7.2" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(501.8 167) rotate(7.7)">
+    <ellipse rx="11.6" ry="8.1" fill="#B9BC8F"/>
+    <ellipse rx="11.6" ry="8.1" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9.5 0 C-3.5 -3.7 3.5 3.7 9.5 0" fill="none" stroke="#5b5a3a" stroke-width="1.3" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11.6" ry="8.1" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(497.4 167.2) rotate(52.1)">
+    <ellipse rx="12.6" ry="8.8" fill="#C2C29A"/>
+    <ellipse rx="12.6" ry="8.8" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-10.3 0 C-3.8 -4 3.8 4 10.3 0" fill="none" stroke="#5b5a3a" stroke-width="1.4" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="12.6" ry="8.8" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(529 167.3) rotate(0.1)">
+    <ellipse rx="10.9" ry="7.6" fill="#B9BC8F"/>
+    <ellipse rx="10.9" ry="7.6" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-8.9 0 C-3.3 -3.4 3.3 3.4 8.9 0" fill="none" stroke="#5b5a3a" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="10.9" ry="7.6" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(543.4 168) rotate(61)">
+    <ellipse rx="10.7" ry="7.5" fill="#C2C29A"/>
+    <ellipse rx="10.7" ry="7.5" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-8.8 0 C-3.2 -3.4 3.2 3.4 8.8 0" fill="none" stroke="#5b5a3a" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="10.7" ry="7.5" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(404.9 168.5) rotate(17.6)">
+    <ellipse rx="10.7" ry="7.5" fill="#B9BC8F"/>
+    <ellipse rx="10.7" ry="7.5" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-8.7 0 C-3.2 -3.4 3.2 3.4 8.7 0" fill="none" stroke="#5b5a3a" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="10.7" ry="7.5" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(402.8 169.9) rotate(150.9)">
+    <ellipse rx="10.7" ry="7.5" fill="#C2C29A"/>
+    <ellipse rx="10.7" ry="7.5" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-8.8 0 C-3.2 -3.4 3.2 3.4 8.8 0" fill="none" stroke="#5b5a3a" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="10.7" ry="7.5" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(560.9 170.2) rotate(139.7)">
+    <ellipse rx="11" ry="7.7" fill="#A9AE80"/>
+    <ellipse rx="11" ry="7.7" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9 0 C-3.3 -3.5 3.3 3.5 9 0" fill="none" stroke="#5b5a3a" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11" ry="7.7" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(399.2 170.3) rotate(31.3)">
+    <ellipse rx="9.5" ry="6.6" fill="#A9AE80"/>
+    <ellipse rx="9.5" ry="6.6" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-7.8 0 C-2.8 -3 2.8 3 7.8 0" fill="none" stroke="#5b5a3a" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="9.5" ry="6.6" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(509.1 170.5) rotate(26.3)">
+    <ellipse rx="10.4" ry="7.2" fill="#B9BC8F"/>
+    <ellipse rx="10.4" ry="7.2" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-8.5 0 C-3.1 -3.3 3.1 3.3 8.5 0" fill="none" stroke="#5b5a3a" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="10.4" ry="7.2" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(528.1 170.8) rotate(166.5)">
+    <ellipse rx="12" ry="8.4" fill="#9CA474"/>
+    <ellipse rx="12" ry="8.4" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9.8 0 C-3.6 -3.8 3.6 3.8 9.8 0" fill="none" stroke="#5b5a3a" stroke-width="1.3" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="12" ry="8.4" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(472.3 170.9) rotate(92.3)">
+    <ellipse rx="11.8" ry="8.3" fill="#C2C29A"/>
+    <ellipse rx="11.8" ry="8.3" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9.7 0 C-3.6 -3.7 3.6 3.7 9.7 0" fill="none" stroke="#5b5a3a" stroke-width="1.3" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11.8" ry="8.3" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(574.1 171.4) rotate(173.5)">
+    <ellipse rx="12.5" ry="8.8" fill="#C2C29A"/>
+    <ellipse rx="12.5" ry="8.8" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-10.3 0 C-3.8 -4 3.8 4 10.3 0" fill="none" stroke="#5b5a3a" stroke-width="1.4" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="12.5" ry="8.8" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(391.8 171.9) rotate(75.2)">
+    <ellipse rx="11.2" ry="7.8" fill="#A9AE80"/>
+    <ellipse rx="11.2" ry="7.8" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9.2 0 C-3.4 -3.5 3.4 3.5 9.2 0" fill="none" stroke="#5b5a3a" stroke-width="1.3" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11.2" ry="7.8" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(511.7 172.3) rotate(56.6)">
+    <ellipse rx="10.8" ry="7.6" fill="#B9BC8F"/>
+    <ellipse rx="10.8" ry="7.6" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-8.8 0 C-3.2 -3.4 3.2 3.4 8.8 0" fill="none" stroke="#5b5a3a" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="10.8" ry="7.6" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(482.6 172.5) rotate(80.4)">
+    <ellipse rx="9.7" ry="6.8" fill="#C2C29A"/>
+    <ellipse rx="9.7" ry="6.8" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-8 0 C-2.9 -3.1 2.9 3.1 8 0" fill="none" stroke="#5b5a3a" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="9.7" ry="6.8" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(390.7 172.8) rotate(99.7)">
+    <ellipse rx="10.9" ry="7.6" fill="#C2C29A"/>
+    <ellipse rx="10.9" ry="7.6" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-8.9 0 C-3.3 -3.4 3.3 3.4 8.9 0" fill="none" stroke="#5b5a3a" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="10.9" ry="7.6" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(390.5 173) rotate(24.1)">
+    <ellipse rx="11" ry="7.7" fill="#A9AE80"/>
+    <ellipse rx="11" ry="7.7" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9 0 C-3.3 -3.5 3.3 3.5 9 0" fill="none" stroke="#5b5a3a" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11" ry="7.7" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(509.5 173.1) rotate(69.7)">
+    <ellipse rx="12.1" ry="8.4" fill="#C2C29A"/>
+    <ellipse rx="12.1" ry="8.4" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9.9 0 C-3.6 -3.8 3.6 3.8 9.9 0" fill="none" stroke="#5b5a3a" stroke-width="1.4" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="12.1" ry="8.4" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(580.2 174.4) rotate(152.1)">
+    <ellipse rx="11.5" ry="8.1" fill="#A9AE80"/>
+    <ellipse rx="11.5" ry="8.1" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9.4 0 C-3.5 -3.6 3.5 3.6 9.4 0" fill="none" stroke="#5b5a3a" stroke-width="1.3" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11.5" ry="8.1" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(574.5 174.7) rotate(48.9)">
+    <ellipse rx="11.4" ry="8" fill="#9CA474"/>
+    <ellipse rx="11.4" ry="8" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9.3 0 C-3.4 -3.6 3.4 3.6 9.3 0" fill="none" stroke="#5b5a3a" stroke-width="1.3" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11.4" ry="8" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(469.2 175.1) rotate(123.5)">
+    <ellipse rx="12" ry="8.4" fill="#9CA474"/>
+    <ellipse rx="12" ry="8.4" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9.8 0 C-3.6 -3.8 3.6 3.8 9.8 0" fill="none" stroke="#5b5a3a" stroke-width="1.3" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="12" ry="8.4" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(431.5 175.2) rotate(149.7)">
+    <ellipse rx="12.3" ry="8.6" fill="#A9AE80"/>
+    <ellipse rx="12.3" ry="8.6" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-10.1 0 C-3.7 -3.9 3.7 3.9 10.1 0" fill="none" stroke="#5b5a3a" stroke-width="1.4" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="12.3" ry="8.6" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(525.7 175.2) rotate(178.1)">
+    <ellipse rx="11.1" ry="7.8" fill="#9CA474"/>
+    <ellipse rx="11.1" ry="7.8" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9.1 0 C-3.3 -3.5 3.3 3.5 9.1 0" fill="none" stroke="#5b5a3a" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11.1" ry="7.8" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(471.5 176.5) rotate(172.8)">
+    <ellipse rx="9.6" ry="6.7" fill="#B9BC8F"/>
+    <ellipse rx="9.6" ry="6.7" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-7.9 0 C-2.9 -3 2.9 3 7.9 0" fill="none" stroke="#5b5a3a" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="9.6" ry="6.7" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(451.1 176.7) rotate(82.3)">
+    <ellipse rx="11.2" ry="7.9" fill="#9CA474"/>
+    <ellipse rx="11.2" ry="7.9" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9.2 0 C-3.4 -3.5 3.4 3.5 9.2 0" fill="none" stroke="#5b5a3a" stroke-width="1.3" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11.2" ry="7.9" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(471.5 177.3) rotate(31.4)">
+    <ellipse rx="11.9" ry="8.4" fill="#C2C29A"/>
+    <ellipse rx="11.9" ry="8.4" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9.8 0 C-3.6 -3.8 3.6 3.8 9.8 0" fill="none" stroke="#5b5a3a" stroke-width="1.3" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11.9" ry="8.4" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><circle cx="470" cy="465" r="132" fill="#1B1512" stroke="#D4A24C" stroke-width="5"/>
+        <circle cx="470" cy="465" r="118" fill="none" stroke="#D4A24C" stroke-opacity=".35" stroke-width="2"/>
+        <circle cx="470" cy="465" r="96" fill="#2E1A0E"/>
+        <circle cx="470" cy="465" r="96" fill="url(#pool)" opacity=".9"/><g transform="translate(500.2 522.2) rotate(111.1)">
+    <ellipse rx="11" ry="7.6" fill="#9A6234"/>
+    <ellipse rx="11" ry="7.6" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9 0 C-3.3 -3.4 3.3 3.4 9 0" fill="none" stroke="#2a1408" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11" ry="7.6" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(496.4 525.7) rotate(85.5)">
+    <ellipse rx="11" ry="7.6" fill="#A86F3D"/>
+    <ellipse rx="11" ry="7.6" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9 0 C-3.3 -3.4 3.3 3.4 9 0" fill="none" stroke="#2a1408" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11" ry="7.6" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(528.5 499.4) rotate(121.5)">
+    <ellipse rx="11" ry="7.6" fill="#8B5328"/>
+    <ellipse rx="11" ry="7.6" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9 0 C-3.3 -3.4 3.3 3.4 9 0" fill="none" stroke="#2a1408" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11" ry="7.6" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(452.4 504) rotate(45.4)">
+    <ellipse rx="11" ry="7.6" fill="#9A6234"/>
+    <ellipse rx="11" ry="7.6" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9 0 C-3.3 -3.4 3.3 3.4 9 0" fill="none" stroke="#2a1408" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11" ry="7.6" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(412.4 493.5) rotate(60.1)">
+    <ellipse rx="11" ry="7.6" fill="#A86F3D"/>
+    <ellipse rx="11" ry="7.6" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9 0 C-3.3 -3.4 3.3 3.4 9 0" fill="none" stroke="#2a1408" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11" ry="7.6" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(421.1 520) rotate(69.7)">
+    <ellipse rx="11" ry="7.6" fill="#8B5328"/>
+    <ellipse rx="11" ry="7.6" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9 0 C-3.3 -3.4 3.3 3.4 9 0" fill="none" stroke="#2a1408" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11" ry="7.6" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(482.6 495.5) rotate(22.5)">
+    <ellipse rx="11" ry="7.6" fill="#9A6234"/>
+    <ellipse rx="11" ry="7.6" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9 0 C-3.3 -3.4 3.3 3.4 9 0" fill="none" stroke="#2a1408" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11" ry="7.6" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(400.6 503.3) rotate(128.8)">
+    <ellipse rx="11" ry="7.6" fill="#A86F3D"/>
+    <ellipse rx="11" ry="7.6" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9 0 C-3.3 -3.4 3.3 3.4 9 0" fill="none" stroke="#2a1408" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11" ry="7.6" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(435.5 487.3) rotate(49.7)">
+    <ellipse rx="11" ry="7.6" fill="#8B5328"/>
+    <ellipse rx="11" ry="7.6" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9 0 C-3.3 -3.4 3.3 3.4 9 0" fill="none" stroke="#2a1408" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11" ry="7.6" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(486.8 542.8) rotate(141.3)">
+    <ellipse rx="11" ry="7.6" fill="#9A6234"/>
+    <ellipse rx="11" ry="7.6" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9 0 C-3.3 -3.4 3.3 3.4 9 0" fill="none" stroke="#2a1408" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11" ry="7.6" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(432.6 520.3) rotate(117.4)">
+    <ellipse rx="11" ry="7.6" fill="#A86F3D"/>
+    <ellipse rx="11" ry="7.6" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9 0 C-3.3 -3.4 3.3 3.4 9 0" fill="none" stroke="#2a1408" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11" ry="7.6" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(454.3 517.7) rotate(176.7)">
+    <ellipse rx="11" ry="7.6" fill="#8B5328"/>
+    <ellipse rx="11" ry="7.6" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9 0 C-3.3 -3.4 3.3 3.4 9 0" fill="none" stroke="#2a1408" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11" ry="7.6" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(477.9 496) rotate(55.2)">
+    <ellipse rx="11" ry="7.6" fill="#9A6234"/>
+    <ellipse rx="11" ry="7.6" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9 0 C-3.3 -3.4 3.3 3.4 9 0" fill="none" stroke="#2a1408" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11" ry="7.6" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(440.6 531.5) rotate(110.6)">
+    <ellipse rx="11" ry="7.6" fill="#A86F3D"/>
+    <ellipse rx="11" ry="7.6" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9 0 C-3.3 -3.4 3.3 3.4 9 0" fill="none" stroke="#2a1408" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11" ry="7.6" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(463.3 500.4) rotate(8.5)">
+    <ellipse rx="11" ry="7.6" fill="#8B5328"/>
+    <ellipse rx="11" ry="7.6" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9 0 C-3.3 -3.4 3.3 3.4 9 0" fill="none" stroke="#2a1408" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11" ry="7.6" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(421.7 528.3) rotate(161.6)">
+    <ellipse rx="11" ry="7.6" fill="#9A6234"/>
+    <ellipse rx="11" ry="7.6" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9 0 C-3.3 -3.4 3.3 3.4 9 0" fill="none" stroke="#2a1408" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11" ry="7.6" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(428.7 513.2) rotate(41.9)">
+    <ellipse rx="11" ry="7.6" fill="#A86F3D"/>
+    <ellipse rx="11" ry="7.6" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9 0 C-3.3 -3.4 3.3 3.4 9 0" fill="none" stroke="#2a1408" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11" ry="7.6" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(434.6 500.7) rotate(122.7)">
+    <ellipse rx="11" ry="7.6" fill="#8B5328"/>
+    <ellipse rx="11" ry="7.6" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9 0 C-3.3 -3.4 3.3 3.4 9 0" fill="none" stroke="#2a1408" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11" ry="7.6" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(434.9 499.6) rotate(125.5)">
+    <ellipse rx="11" ry="7.6" fill="#9A6234"/>
+    <ellipse rx="11" ry="7.6" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9 0 C-3.3 -3.4 3.3 3.4 9 0" fill="none" stroke="#2a1408" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11" ry="7.6" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(472.7 533.5) rotate(49)">
+    <ellipse rx="11" ry="7.6" fill="#A86F3D"/>
+    <ellipse rx="11" ry="7.6" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9 0 C-3.3 -3.4 3.3 3.4 9 0" fill="none" stroke="#2a1408" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11" ry="7.6" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(446.5 515.3) rotate(41.9)">
+    <ellipse rx="11" ry="7.6" fill="#8B5328"/>
+    <ellipse rx="11" ry="7.6" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9 0 C-3.3 -3.4 3.3 3.4 9 0" fill="none" stroke="#2a1408" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11" ry="7.6" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(476.9 529.3) rotate(73)">
+    <ellipse rx="11" ry="7.6" fill="#9A6234"/>
+    <ellipse rx="11" ry="7.6" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9 0 C-3.3 -3.4 3.3 3.4 9 0" fill="none" stroke="#2a1408" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11" ry="7.6" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(438.3 498) rotate(17.7)">
+    <ellipse rx="11" ry="7.6" fill="#A86F3D"/>
+    <ellipse rx="11" ry="7.6" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9 0 C-3.3 -3.4 3.3 3.4 9 0" fill="none" stroke="#2a1408" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11" ry="7.6" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(444.8 481.5) rotate(32.8)">
+    <ellipse rx="11" ry="7.6" fill="#8B5328"/>
+    <ellipse rx="11" ry="7.6" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9 0 C-3.3 -3.4 3.3 3.4 9 0" fill="none" stroke="#2a1408" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11" ry="7.6" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(466.2 502.4) rotate(67.5)">
+    <ellipse rx="11" ry="7.6" fill="#9A6234"/>
+    <ellipse rx="11" ry="7.6" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9 0 C-3.3 -3.4 3.3 3.4 9 0" fill="none" stroke="#2a1408" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11" ry="7.6" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(535.9 500.3) rotate(20.6)">
+    <ellipse rx="11" ry="7.6" fill="#A86F3D"/>
+    <ellipse rx="11" ry="7.6" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9 0 C-3.3 -3.4 3.3 3.4 9 0" fill="none" stroke="#2a1408" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11" ry="7.6" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(456.8 496.1) rotate(40.7)">
+    <ellipse rx="11" ry="7.6" fill="#8B5328"/>
+    <ellipse rx="11" ry="7.6" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9 0 C-3.3 -3.4 3.3 3.4 9 0" fill="none" stroke="#2a1408" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11" ry="7.6" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(414 514.5) rotate(24.5)">
+    <ellipse rx="11" ry="7.6" fill="#9A6234"/>
+    <ellipse rx="11" ry="7.6" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9 0 C-3.3 -3.4 3.3 3.4 9 0" fill="none" stroke="#2a1408" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11" ry="7.6" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(484.3 491.4) rotate(74.3)">
+    <ellipse rx="11" ry="7.6" fill="#A86F3D"/>
+    <ellipse rx="11" ry="7.6" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9 0 C-3.3 -3.4 3.3 3.4 9 0" fill="none" stroke="#2a1408" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11" ry="7.6" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(449.1 522.2) rotate(75.8)">
+    <ellipse rx="11" ry="7.6" fill="#8B5328"/>
+    <ellipse rx="11" ry="7.6" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9 0 C-3.3 -3.4 3.3 3.4 9 0" fill="none" stroke="#2a1408" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11" ry="7.6" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(491.4 495.8) rotate(169.4)">
+    <ellipse rx="11" ry="7.6" fill="#9A6234"/>
+    <ellipse rx="11" ry="7.6" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9 0 C-3.3 -3.4 3.3 3.4 9 0" fill="none" stroke="#2a1408" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11" ry="7.6" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(439.1 511.8) rotate(33.2)">
+    <ellipse rx="11" ry="7.6" fill="#A86F3D"/>
+    <ellipse rx="11" ry="7.6" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9 0 C-3.3 -3.4 3.3 3.4 9 0" fill="none" stroke="#2a1408" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11" ry="7.6" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(474 533.7) rotate(102.3)">
+    <ellipse rx="11" ry="7.6" fill="#8B5328"/>
+    <ellipse rx="11" ry="7.6" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9 0 C-3.3 -3.4 3.3 3.4 9 0" fill="none" stroke="#2a1408" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11" ry="7.6" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(488 493.9) rotate(130.1)">
+    <ellipse rx="11" ry="7.6" fill="#9A6234"/>
+    <ellipse rx="11" ry="7.6" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9 0 C-3.3 -3.4 3.3 3.4 9 0" fill="none" stroke="#2a1408" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11" ry="7.6" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(419 498.1) rotate(110.5)">
+    <ellipse rx="11" ry="7.6" fill="#A86F3D"/>
+    <ellipse rx="11" ry="7.6" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9 0 C-3.3 -3.4 3.3 3.4 9 0" fill="none" stroke="#2a1408" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11" ry="7.6" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(519.2 523) rotate(111.2)">
+    <ellipse rx="11" ry="7.6" fill="#8B5328"/>
+    <ellipse rx="11" ry="7.6" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9 0 C-3.3 -3.4 3.3 3.4 9 0" fill="none" stroke="#2a1408" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11" ry="7.6" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(445.1 489.6) rotate(122.7)">
+    <ellipse rx="11" ry="7.6" fill="#9A6234"/>
+    <ellipse rx="11" ry="7.6" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9 0 C-3.3 -3.4 3.3 3.4 9 0" fill="none" stroke="#2a1408" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11" ry="7.6" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(428.3 496.8) rotate(64.1)">
+    <ellipse rx="11" ry="7.6" fill="#A86F3D"/>
+    <ellipse rx="11" ry="7.6" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9 0 C-3.3 -3.4 3.3 3.4 9 0" fill="none" stroke="#2a1408" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11" ry="7.6" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(473.6 533.3) rotate(94.7)">
+    <ellipse rx="11" ry="7.6" fill="#8B5328"/>
+    <ellipse rx="11" ry="7.6" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9 0 C-3.3 -3.4 3.3 3.4 9 0" fill="none" stroke="#2a1408" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11" ry="7.6" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(478.7 506.8) rotate(9.6)">
+    <ellipse rx="11" ry="7.6" fill="#9A6234"/>
+    <ellipse rx="11" ry="7.6" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9 0 C-3.3 -3.4 3.3 3.4 9 0" fill="none" stroke="#2a1408" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11" ry="7.6" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(475.8 506) rotate(17.1)">
+    <ellipse rx="11" ry="7.6" fill="#A86F3D"/>
+    <ellipse rx="11" ry="7.6" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9 0 C-3.3 -3.4 3.3 3.4 9 0" fill="none" stroke="#2a1408" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11" ry="7.6" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(421.1 495.7) rotate(167.2)">
+    <ellipse rx="11" ry="7.6" fill="#8B5328"/>
+    <ellipse rx="11" ry="7.6" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9 0 C-3.3 -3.4 3.3 3.4 9 0" fill="none" stroke="#2a1408" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11" ry="7.6" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(489.5 511.7) rotate(84)">
+    <ellipse rx="11" ry="7.6" fill="#9A6234"/>
+    <ellipse rx="11" ry="7.6" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9 0 C-3.3 -3.4 3.3 3.4 9 0" fill="none" stroke="#2a1408" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11" ry="7.6" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(502.4 512.6) rotate(164)">
+    <ellipse rx="11" ry="7.6" fill="#A86F3D"/>
+    <ellipse rx="11" ry="7.6" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9 0 C-3.3 -3.4 3.3 3.4 9 0" fill="none" stroke="#2a1408" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11" ry="7.6" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(437.2 532.7) rotate(119.6)">
+    <ellipse rx="11" ry="7.6" fill="#8B5328"/>
+    <ellipse rx="11" ry="7.6" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9 0 C-3.3 -3.4 3.3 3.4 9 0" fill="none" stroke="#2a1408" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11" ry="7.6" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(485.9 544) rotate(80.4)">
+    <ellipse rx="11" ry="7.6" fill="#9A6234"/>
+    <ellipse rx="11" ry="7.6" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9 0 C-3.3 -3.4 3.3 3.4 9 0" fill="none" stroke="#2a1408" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11" ry="7.6" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(507.3 498.7) rotate(155.5)">
+    <ellipse rx="11" ry="7.6" fill="#A86F3D"/>
+    <ellipse rx="11" ry="7.6" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9 0 C-3.3 -3.4 3.3 3.4 9 0" fill="none" stroke="#2a1408" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11" ry="7.6" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(458.3 511.7) rotate(11.6)">
+    <ellipse rx="11" ry="7.6" fill="#8B5328"/>
+    <ellipse rx="11" ry="7.6" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9 0 C-3.3 -3.4 3.3 3.4 9 0" fill="none" stroke="#2a1408" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11" ry="7.6" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(506.6 445.4) rotate(103.4)">
+    <ellipse rx="9" ry="6.3" fill="#9A6234"/>
+    <ellipse rx="9" ry="6.3" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-7.4 0 C-2.7 -2.8 2.7 2.8 7.4 0" fill="none" stroke="#2a1408" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="9" ry="6.3" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(452.7 405.5) rotate(54.2)">
+    <ellipse rx="9" ry="6.3" fill="#A86F3D"/>
+    <ellipse rx="9" ry="6.3" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-7.4 0 C-2.7 -2.8 2.7 2.8 7.4 0" fill="none" stroke="#2a1408" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="9" ry="6.3" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(418.9 393.5) rotate(51.8)">
+    <ellipse rx="9" ry="6.3" fill="#8B5328"/>
+    <ellipse rx="9" ry="6.3" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-7.4 0 C-2.7 -2.8 2.7 2.8 7.4 0" fill="none" stroke="#2a1408" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="9" ry="6.3" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(503.5 405.8) rotate(28.8)">
+    <ellipse rx="9" ry="6.3" fill="#9A6234"/>
+    <ellipse rx="9" ry="6.3" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-7.4 0 C-2.7 -2.8 2.7 2.8 7.4 0" fill="none" stroke="#2a1408" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="9" ry="6.3" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(419.9 406.3) rotate(136.6)">
+    <ellipse rx="9" ry="6.3" fill="#A86F3D"/>
+    <ellipse rx="9" ry="6.3" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-7.4 0 C-2.7 -2.8 2.7 2.8 7.4 0" fill="none" stroke="#2a1408" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="9" ry="6.3" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(522.4 450.7) rotate(84.1)">
+    <ellipse rx="9" ry="6.3" fill="#8B5328"/>
+    <ellipse rx="9" ry="6.3" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-7.4 0 C-2.7 -2.8 2.7 2.8 7.4 0" fill="none" stroke="#2a1408" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="9" ry="6.3" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(529.1 435.9) rotate(130)">
+    <ellipse rx="9" ry="6.3" fill="#9A6234"/>
+    <ellipse rx="9" ry="6.3" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-7.4 0 C-2.7 -2.8 2.7 2.8 7.4 0" fill="none" stroke="#2a1408" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="9" ry="6.3" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(529.3 398.3) rotate(127.5)">
+    <ellipse rx="9" ry="6.3" fill="#A86F3D"/>
+    <ellipse rx="9" ry="6.3" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-7.4 0 C-2.7 -2.8 2.7 2.8 7.4 0" fill="none" stroke="#2a1408" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="9" ry="6.3" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(479.2 416.4) rotate(95.5)">
+    <ellipse rx="9" ry="6.3" fill="#8B5328"/>
+    <ellipse rx="9" ry="6.3" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-7.4 0 C-2.7 -2.8 2.7 2.8 7.4 0" fill="none" stroke="#2a1408" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="9" ry="6.3" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(415.1 451.7) rotate(94.7)">
+    <ellipse rx="9" ry="6.3" fill="#9A6234"/>
+    <ellipse rx="9" ry="6.3" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-7.4 0 C-2.7 -2.8 2.7 2.8 7.4 0" fill="none" stroke="#2a1408" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="9" ry="6.3" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><path d="M395 400 A96 96 0 0 1 520 372" fill="none" stroke="#fff" stroke-opacity=".28" stroke-width="7" stroke-linecap="round"/>
+        <circle cx="470" cy="465" r="96" fill="none" stroke="#000" stroke-opacity=".5" stroke-width="4"/><circle cx="595" cy="465" r="4" fill="#F1C979"/><circle cx="558.4" cy="553.4" r="4" fill="#F1C979"/><circle cx="470" cy="590" r="4" fill="#F1C979"/><circle cx="381.6" cy="553.4" r="4" fill="#F1C979"/><circle cx="345" cy="465" r="4" fill="#F1C979"/><circle cx="381.6" cy="376.6" r="4" fill="#F1C979"/><circle cx="470" cy="340" r="4" fill="#F1C979"/><circle cx="558.4" cy="376.6" r="4" fill="#F1C979"/><circle cx="680" cy="380" r="22" fill="#1B1512" stroke="#D4A24C" stroke-width="2.5"/><path d="M680 380 L692 366" stroke="#F1C979" stroke-width="3" stroke-linecap="round"/>
+        <text x="680" y="424" text-anchor="middle" font-family="DM Sans" font-weight="700" font-size="12" letter-spacing="2" fill="#D4A24C" opacity=".8">205°C</text>
+        <rect x="652" y="470" width="56" height="90" rx="8" fill="#1B1512" stroke="#D4A24C" stroke-opacity=".5" stroke-width="2"/>
+        <rect x="664" y="486" width="32" height="10" rx="3" fill="#B5553A"/><rect x="664" y="504" width="32" height="10" rx="3" fill="#D4A24C" opacity=".7"/><rect x="664" y="522" width="32" height="10" rx="3" fill="#D4A24C" opacity=".35"/><path d="M560 560 L760 640 L748 664 L548 586 Z" fill="#4A3D35" stroke="#D4A24C" stroke-opacity=".4" stroke-width="2"/><g transform="translate(601.7 585.9) rotate(169.9)">
+    <ellipse rx="10" ry="7" fill="#4A2A17"/>
+    <ellipse rx="10" ry="7" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-8.2 0 C-3 -3.2 3 3.2 8.2 0" fill="none" stroke="#120804" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="10" ry="7" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(611.9 586.4) rotate(126.9)">
+    <ellipse rx="10" ry="7" fill="#5A321B"/>
+    <ellipse rx="10" ry="7" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-8.2 0 C-3 -3.2 3 3.2 8.2 0" fill="none" stroke="#120804" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="10" ry="7" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(621.5 592.1) rotate(44.7)">
+    <ellipse rx="10" ry="7" fill="#3E2312"/>
+    <ellipse rx="10" ry="7" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-8.2 0 C-3 -3.2 3 3.2 8.2 0" fill="none" stroke="#120804" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="10" ry="7" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(638.9 596.4) rotate(65.9)">
+    <ellipse rx="10" ry="7" fill="#61391F"/>
+    <ellipse rx="10" ry="7" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-8.2 0 C-3 -3.2 3 3.2 8.2 0" fill="none" stroke="#120804" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="10" ry="7" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(656.3 610.1) rotate(63)">
+    <ellipse rx="10" ry="7" fill="#4A2A17"/>
+    <ellipse rx="10" ry="7" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-8.2 0 C-3 -3.2 3 3.2 8.2 0" fill="none" stroke="#120804" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="10" ry="7" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(661.7 618.1) rotate(145.3)">
+    <ellipse rx="10" ry="7" fill="#5A321B"/>
+    <ellipse rx="10" ry="7" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-8.2 0 C-3 -3.2 3 3.2 8.2 0" fill="none" stroke="#120804" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="10" ry="7" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(680.5 615.4) rotate(141.8)">
+    <ellipse rx="10" ry="7" fill="#3E2312"/>
+    <ellipse rx="10" ry="7" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-8.2 0 C-3 -3.2 3 3.2 8.2 0" fill="none" stroke="#120804" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="10" ry="7" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(688.8 627.9) rotate(58.1)">
+    <ellipse rx="10" ry="7" fill="#61391F"/>
+    <ellipse rx="10" ry="7" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-8.2 0 C-3 -3.2 3 3.2 8.2 0" fill="none" stroke="#120804" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="10" ry="7" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(709 636) rotate(104.5)">
+    <ellipse rx="10" ry="7" fill="#4A2A17"/>
+    <ellipse rx="10" ry="7" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-8.2 0 C-3 -3.2 3 3.2 8.2 0" fill="none" stroke="#120804" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="10" ry="7" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(719.2 633.2) rotate(162.8)">
+    <ellipse rx="10" ry="7" fill="#5A321B"/>
+    <ellipse rx="10" ry="7" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-8.2 0 C-3 -3.2 3 3.2 8.2 0" fill="none" stroke="#120804" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="10" ry="7" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(732 643.8) rotate(43)">
+    <ellipse rx="10" ry="7" fill="#3E2312"/>
+    <ellipse rx="10" ry="7" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-8.2 0 C-3 -3.2 3 3.2 8.2 0" fill="none" stroke="#120804" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="10" ry="7" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(748.8 652.6) rotate(30)">
+    <ellipse rx="10" ry="7" fill="#61391F"/>
+    <ellipse rx="10" ry="7" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-8.2 0 C-3 -3.2 3 3.2 8.2 0" fill="none" stroke="#120804" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="10" ry="7" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(760.5 672.5) rotate(127.6)">
+    <ellipse rx="10" ry="7" fill="#4A2A17"/>
+    <ellipse rx="10" ry="7" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-8.2 0 C-3 -3.2 3 3.2 8.2 0" fill="none" stroke="#120804" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="10" ry="7" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(778.2 686.1) rotate(159.8)">
+    <ellipse rx="10" ry="7" fill="#5A321B"/>
+    <ellipse rx="10" ry="7" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-8.2 0 C-3 -3.2 3 3.2 8.2 0" fill="none" stroke="#120804" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="10" ry="7" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><ellipse cx="930" cy="764" rx="210" ry="26" fill="#000" opacity=".6" filter="url(#soft)"/>
+        <path d="M730 690 L750 754 H1110 L1130 690 Z" fill="#2A2320"/><path d="M730 690 L750 754 H1110 L1130 690 Z" fill="url(#vshade)"/>
+        <ellipse cx="930" cy="690" rx="200" ry="44" fill="#2a1a10" stroke="#D4A24C" stroke-opacity=".55" stroke-width="3"/><g transform="translate(909.4 674.3) rotate(65.6)">
+    <ellipse rx="12.1" ry="8.5" fill="#61391F"/>
+    <ellipse rx="12.1" ry="8.5" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9.9 0 C-3.6 -3.8 3.6 3.8 9.9 0" fill="none" stroke="#120804" stroke-width="1.4" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="12.1" ry="8.5" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(982.3 676.2) rotate(67.2)">
+    <ellipse rx="12.9" ry="9.1" fill="#5A321B"/>
+    <ellipse rx="12.9" ry="9.1" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-10.6 0 C-3.9 -4.1 3.9 4.1 10.6 0" fill="none" stroke="#120804" stroke-width="1.4" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="12.9" ry="9.1" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(984 676.4) rotate(8.5)">
+    <ellipse rx="11.3" ry="7.9" fill="#3E2312"/>
+    <ellipse rx="11.3" ry="7.9" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9.2 0 C-3.4 -3.6 3.4 3.6 9.2 0" fill="none" stroke="#120804" stroke-width="1.3" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11.3" ry="7.9" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(905.6 676.8) rotate(26.5)">
+    <ellipse rx="12.6" ry="8.8" fill="#3E2312"/>
+    <ellipse rx="12.6" ry="8.8" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-10.3 0 C-3.8 -4 3.8 4 10.3 0" fill="none" stroke="#120804" stroke-width="1.4" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="12.6" ry="8.8" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(903.4 677.1) rotate(109.9)">
+    <ellipse rx="10.2" ry="7.2" fill="#3E2312"/>
+    <ellipse rx="10.2" ry="7.2" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-8.4 0 C-3.1 -3.2 3.1 3.2 8.4 0" fill="none" stroke="#120804" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="10.2" ry="7.2" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(871.5 677.9) rotate(76.8)">
+    <ellipse rx="12.9" ry="9.1" fill="#4A2A17"/>
+    <ellipse rx="12.9" ry="9.1" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-10.6 0 C-3.9 -4.1 3.9 4.1 10.6 0" fill="none" stroke="#120804" stroke-width="1.4" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="12.9" ry="9.1" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(966.1 678) rotate(114.8)">
+    <ellipse rx="10.7" ry="7.5" fill="#5A321B"/>
+    <ellipse rx="10.7" ry="7.5" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-8.8 0 C-3.2 -3.4 3.2 3.4 8.8 0" fill="none" stroke="#120804" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="10.7" ry="7.5" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(965.3 678.4) rotate(20.5)">
+    <ellipse rx="10.2" ry="7.2" fill="#4A2A17"/>
+    <ellipse rx="10.2" ry="7.2" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-8.4 0 C-3.1 -3.2 3.1 3.2 8.4 0" fill="none" stroke="#120804" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="10.2" ry="7.2" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(880.9 678.9) rotate(47.5)">
+    <ellipse rx="12.5" ry="8.7" fill="#5A321B"/>
+    <ellipse rx="12.5" ry="8.7" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-10.2 0 C-3.7 -3.9 3.7 3.9 10.2 0" fill="none" stroke="#120804" stroke-width="1.4" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="12.5" ry="8.7" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(878.5 679.2) rotate(139.6)">
+    <ellipse rx="11.9" ry="8.3" fill="#5A321B"/>
+    <ellipse rx="11.9" ry="8.3" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9.7 0 C-3.6 -3.8 3.6 3.8 9.7 0" fill="none" stroke="#120804" stroke-width="1.3" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11.9" ry="8.3" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(919.1 679.3) rotate(24)">
+    <ellipse rx="13.7" ry="9.6" fill="#5A321B"/>
+    <ellipse rx="13.7" ry="9.6" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-11.2 0 C-4.1 -4.3 4.1 4.3 11.2 0" fill="none" stroke="#120804" stroke-width="1.5" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="13.7" ry="9.6" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(855.4 679.4) rotate(21.7)">
+    <ellipse rx="10.8" ry="7.5" fill="#61391F"/>
+    <ellipse rx="10.8" ry="7.5" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-8.8 0 C-3.2 -3.4 3.2 3.4 8.8 0" fill="none" stroke="#120804" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="10.8" ry="7.5" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(919.1 679.7) rotate(164.2)">
+    <ellipse rx="12.6" ry="8.8" fill="#5A321B"/>
+    <ellipse rx="12.6" ry="8.8" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-10.3 0 C-3.8 -4 3.8 4 10.3 0" fill="none" stroke="#120804" stroke-width="1.4" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="12.6" ry="8.8" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(990.3 680.1) rotate(162)">
+    <ellipse rx="12.6" ry="8.8" fill="#3E2312"/>
+    <ellipse rx="12.6" ry="8.8" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-10.3 0 C-3.8 -4 3.8 4 10.3 0" fill="none" stroke="#120804" stroke-width="1.4" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="12.6" ry="8.8" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(911.8 680.4) rotate(169.6)">
+    <ellipse rx="13" ry="9.1" fill="#4A2A17"/>
+    <ellipse rx="13" ry="9.1" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-10.7 0 C-3.9 -4.1 3.9 4.1 10.7 0" fill="none" stroke="#120804" stroke-width="1.5" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="13" ry="9.1" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(938.1 680.9) rotate(134.7)">
+    <ellipse rx="12.2" ry="8.6" fill="#4A2A17"/>
+    <ellipse rx="12.2" ry="8.6" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-10 0 C-3.7 -3.9 3.7 3.9 10 0" fill="none" stroke="#120804" stroke-width="1.4" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="12.2" ry="8.6" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(1015 681.5) rotate(143.7)">
+    <ellipse rx="10.4" ry="7.2" fill="#3E2312"/>
+    <ellipse rx="10.4" ry="7.2" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-8.5 0 C-3.1 -3.3 3.1 3.3 8.5 0" fill="none" stroke="#120804" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="10.4" ry="7.2" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(876.5 681.7) rotate(73.8)">
+    <ellipse rx="12.5" ry="8.8" fill="#3E2312"/>
+    <ellipse rx="12.5" ry="8.8" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-10.3 0 C-3.8 -4 3.8 4 10.3 0" fill="none" stroke="#120804" stroke-width="1.4" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="12.5" ry="8.8" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(960.5 681.8) rotate(178.5)">
+    <ellipse rx="13" ry="9.1" fill="#5A321B"/>
+    <ellipse rx="13" ry="9.1" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-10.6 0 C-3.9 -4.1 3.9 4.1 10.6 0" fill="none" stroke="#120804" stroke-width="1.5" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="13" ry="9.1" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(1006.7 682.8) rotate(111.2)">
+    <ellipse rx="11.1" ry="7.7" fill="#3E2312"/>
+    <ellipse rx="11.1" ry="7.7" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9.1 0 C-3.3 -3.5 3.3 3.5 9.1 0" fill="none" stroke="#120804" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11.1" ry="7.7" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(907.2 682.8) rotate(86.6)">
+    <ellipse rx="10.2" ry="7.2" fill="#61391F"/>
+    <ellipse rx="10.2" ry="7.2" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-8.4 0 C-3.1 -3.2 3.1 3.2 8.4 0" fill="none" stroke="#120804" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="10.2" ry="7.2" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(969.1 683) rotate(174.9)">
+    <ellipse rx="12.4" ry="8.7" fill="#4A2A17"/>
+    <ellipse rx="12.4" ry="8.7" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-10.2 0 C-3.7 -3.9 3.7 3.9 10.2 0" fill="none" stroke="#120804" stroke-width="1.4" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="12.4" ry="8.7" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(944.3 683.3) rotate(41.9)">
+    <ellipse rx="13" ry="9.1" fill="#5A321B"/>
+    <ellipse rx="13" ry="9.1" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-10.6 0 C-3.9 -4.1 3.9 4.1 10.6 0" fill="none" stroke="#120804" stroke-width="1.5" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="13" ry="9.1" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(950.9 683.3) rotate(69.4)">
+    <ellipse rx="12.8" ry="8.9" fill="#61391F"/>
+    <ellipse rx="12.8" ry="8.9" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-10.5 0 C-3.8 -4 3.8 4 10.5 0" fill="none" stroke="#120804" stroke-width="1.4" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="12.8" ry="8.9" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(990.6 683.4) rotate(95.9)">
+    <ellipse rx="13.1" ry="9.2" fill="#61391F"/>
+    <ellipse rx="13.1" ry="9.2" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-10.7 0 C-3.9 -4.1 3.9 4.1 10.7 0" fill="none" stroke="#120804" stroke-width="1.5" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="13.1" ry="9.2" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(901.9 683.5) rotate(115)">
+    <ellipse rx="13.3" ry="9.3" fill="#4A2A17"/>
+    <ellipse rx="13.3" ry="9.3" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-10.9 0 C-4 -4.2 4 4.2 10.9 0" fill="none" stroke="#120804" stroke-width="1.5" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="13.3" ry="9.3" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(935.4 683.7) rotate(166.8)">
+    <ellipse rx="13.4" ry="9.4" fill="#61391F"/>
+    <ellipse rx="13.4" ry="9.4" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-11 0 C-4 -4.2 4 4.2 11 0" fill="none" stroke="#120804" stroke-width="1.5" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="13.4" ry="9.4" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(942.6 684.2) rotate(65.7)">
+    <ellipse rx="12.6" ry="8.8" fill="#4A2A17"/>
+    <ellipse rx="12.6" ry="8.8" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-10.3 0 C-3.8 -4 3.8 4 10.3 0" fill="none" stroke="#120804" stroke-width="1.4" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="12.6" ry="8.8" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(983.9 684.7) rotate(20.4)">
+    <ellipse rx="11.9" ry="8.4" fill="#4A2A17"/>
+    <ellipse rx="11.9" ry="8.4" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9.8 0 C-3.6 -3.8 3.6 3.8 9.8 0" fill="none" stroke="#120804" stroke-width="1.3" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11.9" ry="8.4" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(936.1 685) rotate(134.2)">
+    <ellipse rx="11.4" ry="8" fill="#61391F"/>
+    <ellipse rx="11.4" ry="8" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9.3 0 C-3.4 -3.6 3.4 3.6 9.3 0" fill="none" stroke="#120804" stroke-width="1.3" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11.4" ry="8" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(978.7 685) rotate(114.1)">
+    <ellipse rx="11.9" ry="8.4" fill="#61391F"/>
+    <ellipse rx="11.9" ry="8.4" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9.8 0 C-3.6 -3.8 3.6 3.8 9.8 0" fill="none" stroke="#120804" stroke-width="1.3" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11.9" ry="8.4" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(929.2 685.1) rotate(83.8)">
+    <ellipse rx="10.5" ry="7.4" fill="#5A321B"/>
+    <ellipse rx="10.5" ry="7.4" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-8.6 0 C-3.2 -3.3 3.2 3.3 8.6 0" fill="none" stroke="#120804" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="10.5" ry="7.4" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(963.2 685.2) rotate(50.4)">
+    <ellipse rx="12.4" ry="8.7" fill="#4A2A17"/>
+    <ellipse rx="12.4" ry="8.7" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-10.2 0 C-3.7 -3.9 3.7 3.9 10.2 0" fill="none" stroke="#120804" stroke-width="1.4" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="12.4" ry="8.7" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(1030.8 685.7) rotate(69)">
+    <ellipse rx="12.9" ry="9.1" fill="#3E2312"/>
+    <ellipse rx="12.9" ry="9.1" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-10.6 0 C-3.9 -4.1 3.9 4.1 10.6 0" fill="none" stroke="#120804" stroke-width="1.4" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="12.9" ry="9.1" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(955.8 685.9) rotate(119.7)">
+    <ellipse rx="12.1" ry="8.5" fill="#4A2A17"/>
+    <ellipse rx="12.1" ry="8.5" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9.9 0 C-3.6 -3.8 3.6 3.8 9.9 0" fill="none" stroke="#120804" stroke-width="1.4" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="12.1" ry="8.5" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(834.9 686) rotate(93)">
+    <ellipse rx="12" ry="8.4" fill="#5A321B"/>
+    <ellipse rx="12" ry="8.4" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9.8 0 C-3.6 -3.8 3.6 3.8 9.8 0" fill="none" stroke="#120804" stroke-width="1.3" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="12" ry="8.4" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(888.1 686) rotate(135.5)">
+    <ellipse rx="13" ry="9.1" fill="#3E2312"/>
+    <ellipse rx="13" ry="9.1" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-10.7 0 C-3.9 -4.1 3.9 4.1 10.7 0" fill="none" stroke="#120804" stroke-width="1.5" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="13" ry="9.1" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(944.7 686.2) rotate(80.3)">
+    <ellipse rx="11.8" ry="8.2" fill="#5A321B"/>
+    <ellipse rx="11.8" ry="8.2" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9.7 0 C-3.5 -3.7 3.5 3.7 9.7 0" fill="none" stroke="#120804" stroke-width="1.3" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11.8" ry="8.2" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(925 686.5) rotate(150.5)">
+    <ellipse rx="11.1" ry="7.7" fill="#3E2312"/>
+    <ellipse rx="11.1" ry="7.7" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9.1 0 C-3.3 -3.5 3.3 3.5 9.1 0" fill="none" stroke="#120804" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11.1" ry="7.7" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(916.5 686.8) rotate(88.4)">
+    <ellipse rx="12.3" ry="8.6" fill="#3E2312"/>
+    <ellipse rx="12.3" ry="8.6" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-10.1 0 C-3.7 -3.9 3.7 3.9 10.1 0" fill="none" stroke="#120804" stroke-width="1.4" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="12.3" ry="8.6" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(867.1 687) rotate(163.6)">
+    <ellipse rx="11.3" ry="7.9" fill="#61391F"/>
+    <ellipse rx="11.3" ry="7.9" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9.3 0 C-3.4 -3.6 3.4 3.6 9.3 0" fill="none" stroke="#120804" stroke-width="1.3" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11.3" ry="7.9" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(994.9 687.1) rotate(102.3)">
+    <ellipse rx="11.9" ry="8.3" fill="#61391F"/>
+    <ellipse rx="11.9" ry="8.3" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9.8 0 C-3.6 -3.8 3.6 3.8 9.8 0" fill="none" stroke="#120804" stroke-width="1.3" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11.9" ry="8.3" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(976.2 687.3) rotate(83.1)">
+    <ellipse rx="12.9" ry="9.1" fill="#3E2312"/>
+    <ellipse rx="12.9" ry="9.1" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-10.6 0 C-3.9 -4.1 3.9 4.1 10.6 0" fill="none" stroke="#120804" stroke-width="1.4" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="12.9" ry="9.1" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(832.1 687.3) rotate(85.1)">
+    <ellipse rx="12.3" ry="8.6" fill="#3E2312"/>
+    <ellipse rx="12.3" ry="8.6" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-10.1 0 C-3.7 -3.9 3.7 3.9 10.1 0" fill="none" stroke="#120804" stroke-width="1.4" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="12.3" ry="8.6" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(847.6 687.6) rotate(129.1)">
+    <ellipse rx="13" ry="9.1" fill="#4A2A17"/>
+    <ellipse rx="13" ry="9.1" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-10.7 0 C-3.9 -4.1 3.9 4.1 10.7 0" fill="none" stroke="#120804" stroke-width="1.5" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="13" ry="9.1" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(922.6 687.8) rotate(157.5)">
+    <ellipse rx="13.4" ry="9.4" fill="#61391F"/>
+    <ellipse rx="13.4" ry="9.4" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-11 0 C-4 -4.2 4 4.2 11 0" fill="none" stroke="#120804" stroke-width="1.5" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="13.4" ry="9.4" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(901.2 687.8) rotate(32.7)">
+    <ellipse rx="10.4" ry="7.3" fill="#61391F"/>
+    <ellipse rx="10.4" ry="7.3" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-8.5 0 C-3.1 -3.3 3.1 3.3 8.5 0" fill="none" stroke="#120804" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="10.4" ry="7.3" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(827.9 688.5) rotate(15.8)">
+    <ellipse rx="10.7" ry="7.5" fill="#4A2A17"/>
+    <ellipse rx="10.7" ry="7.5" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-8.7 0 C-3.2 -3.4 3.2 3.4 8.7 0" fill="none" stroke="#120804" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="10.7" ry="7.5" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(909.2 688.6) rotate(17.5)">
+    <ellipse rx="12.6" ry="8.8" fill="#3E2312"/>
+    <ellipse rx="12.6" ry="8.8" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-10.3 0 C-3.8 -4 3.8 4 10.3 0" fill="none" stroke="#120804" stroke-width="1.4" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="12.6" ry="8.8" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(940.6 688.7) rotate(66.7)">
+    <ellipse rx="11.6" ry="8.1" fill="#3E2312"/>
+    <ellipse rx="11.6" ry="8.1" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9.5 0 C-3.5 -3.7 3.5 3.7 9.5 0" fill="none" stroke="#120804" stroke-width="1.3" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11.6" ry="8.1" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(924.5 689.5) rotate(162.4)">
+    <ellipse rx="10.6" ry="7.4" fill="#5A321B"/>
+    <ellipse rx="10.6" ry="7.4" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-8.7 0 C-3.2 -3.4 3.2 3.4 8.7 0" fill="none" stroke="#120804" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="10.6" ry="7.4" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(951.9 690.1) rotate(133.2)">
+    <ellipse rx="11.5" ry="8.1" fill="#5A321B"/>
+    <ellipse rx="11.5" ry="8.1" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9.4 0 C-3.5 -3.6 3.5 3.6 9.4 0" fill="none" stroke="#120804" stroke-width="1.3" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11.5" ry="8.1" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(874.6 690.2) rotate(27.7)">
+    <ellipse rx="12.8" ry="9" fill="#4A2A17"/>
+    <ellipse rx="12.8" ry="9" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-10.5 0 C-3.8 -4 3.8 4 10.5 0" fill="none" stroke="#120804" stroke-width="1.4" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="12.8" ry="9" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(849.9 690.2) rotate(42.8)">
+    <ellipse rx="11.9" ry="8.3" fill="#5A321B"/>
+    <ellipse rx="11.9" ry="8.3" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9.7 0 C-3.6 -3.8 3.6 3.8 9.7 0" fill="none" stroke="#120804" stroke-width="1.3" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11.9" ry="8.3" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(1009.3 690.3) rotate(179.5)">
+    <ellipse rx="13.7" ry="9.6" fill="#3E2312"/>
+    <ellipse rx="13.7" ry="9.6" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-11.2 0 C-4.1 -4.3 4.1 4.3 11.2 0" fill="none" stroke="#120804" stroke-width="1.5" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="13.7" ry="9.6" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(1009.2 690.4) rotate(52.9)">
+    <ellipse rx="11.6" ry="8.1" fill="#4A2A17"/>
+    <ellipse rx="11.6" ry="8.1" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9.5 0 C-3.5 -3.7 3.5 3.7 9.5 0" fill="none" stroke="#120804" stroke-width="1.3" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11.6" ry="8.1" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(1018.9 690.8) rotate(124.2)">
+    <ellipse rx="11.8" ry="8.3" fill="#61391F"/>
+    <ellipse rx="11.8" ry="8.3" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9.7 0 C-3.5 -3.7 3.5 3.7 9.7 0" fill="none" stroke="#120804" stroke-width="1.3" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11.8" ry="8.3" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(994.6 691) rotate(66.5)">
+    <ellipse rx="11" ry="7.7" fill="#61391F"/>
+    <ellipse rx="11" ry="7.7" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9 0 C-3.3 -3.5 3.3 3.5 9 0" fill="none" stroke="#120804" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11" ry="7.7" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(945 691.4) rotate(91.6)">
+    <ellipse rx="13.6" ry="9.5" fill="#5A321B"/>
+    <ellipse rx="13.6" ry="9.5" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-11.1 0 C-4.1 -4.3 4.1 4.3 11.1 0" fill="none" stroke="#120804" stroke-width="1.5" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="13.6" ry="9.5" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(820.1 691.5) rotate(163.1)">
+    <ellipse rx="12.9" ry="9" fill="#4A2A17"/>
+    <ellipse rx="12.9" ry="9" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-10.6 0 C-3.9 -4.1 3.9 4.1 10.6 0" fill="none" stroke="#120804" stroke-width="1.4" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="12.9" ry="9" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(808.3 691.6) rotate(116.3)">
+    <ellipse rx="13.3" ry="9.3" fill="#3E2312"/>
+    <ellipse rx="13.3" ry="9.3" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-10.9 0 C-4 -4.2 4 4.2 10.9 0" fill="none" stroke="#120804" stroke-width="1.5" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="13.3" ry="9.3" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(876.7 691.8) rotate(124.4)">
+    <ellipse rx="13.7" ry="9.6" fill="#5A321B"/>
+    <ellipse rx="13.7" ry="9.6" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-11.3 0 C-4.1 -4.3 4.1 4.3 11.3 0" fill="none" stroke="#120804" stroke-width="1.5" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="13.7" ry="9.6" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(853 692.1) rotate(69.5)">
+    <ellipse rx="13.5" ry="9.5" fill="#4A2A17"/>
+    <ellipse rx="13.5" ry="9.5" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-11.1 0 C-4.1 -4.3 4.1 4.3 11.1 0" fill="none" stroke="#120804" stroke-width="1.5" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="13.5" ry="9.5" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(822.6 692.2) rotate(106.2)">
+    <ellipse rx="10.3" ry="7.2" fill="#61391F"/>
+    <ellipse rx="10.3" ry="7.2" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-8.5 0 C-3.1 -3.3 3.1 3.3 8.5 0" fill="none" stroke="#120804" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="10.3" ry="7.2" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(883.2 693) rotate(36.4)">
+    <ellipse rx="12.8" ry="9" fill="#3E2312"/>
+    <ellipse rx="12.8" ry="9" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-10.5 0 C-3.8 -4.1 3.8 4.1 10.5 0" fill="none" stroke="#120804" stroke-width="1.4" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="12.8" ry="9" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(919.3 693.3) rotate(97.6)">
+    <ellipse rx="13.1" ry="9.1" fill="#5A321B"/>
+    <ellipse rx="13.1" ry="9.1" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-10.7 0 C-3.9 -4.1 3.9 4.1 10.7 0" fill="none" stroke="#120804" stroke-width="1.5" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="13.1" ry="9.1" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(859.6 693.4) rotate(112.5)">
+    <ellipse rx="10.8" ry="7.5" fill="#61391F"/>
+    <ellipse rx="10.8" ry="7.5" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-8.8 0 C-3.2 -3.4 3.2 3.4 8.8 0" fill="none" stroke="#120804" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="10.8" ry="7.5" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(990 693.4) rotate(58.8)">
+    <ellipse rx="11.4" ry="8" fill="#3E2312"/>
+    <ellipse rx="11.4" ry="8" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9.3 0 C-3.4 -3.6 3.4 3.6 9.3 0" fill="none" stroke="#120804" stroke-width="1.3" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11.4" ry="8" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(942.5 693.9) rotate(174)">
+    <ellipse rx="11" ry="7.7" fill="#61391F"/>
+    <ellipse rx="11" ry="7.7" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9 0 C-3.3 -3.5 3.3 3.5 9 0" fill="none" stroke="#120804" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11" ry="7.7" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(920.5 694.2) rotate(135)">
+    <ellipse rx="11.9" ry="8.3" fill="#4A2A17"/>
+    <ellipse rx="11.9" ry="8.3" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9.7 0 C-3.6 -3.7 3.6 3.7 9.7 0" fill="none" stroke="#120804" stroke-width="1.3" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11.9" ry="8.3" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(1014.5 694.4) rotate(43.5)">
+    <ellipse rx="13.6" ry="9.5" fill="#4A2A17"/>
+    <ellipse rx="13.6" ry="9.5" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-11.2 0 C-4.1 -4.3 4.1 4.3 11.2 0" fill="none" stroke="#120804" stroke-width="1.5" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="13.6" ry="9.5" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(828.8 694.4) rotate(167.8)">
+    <ellipse rx="10.2" ry="7.1" fill="#5A321B"/>
+    <ellipse rx="10.2" ry="7.1" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-8.4 0 C-3.1 -3.2 3.1 3.2 8.4 0" fill="none" stroke="#120804" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="10.2" ry="7.1" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(896.9 694.7) rotate(86.5)">
+    <ellipse rx="10.2" ry="7.2" fill="#5A321B"/>
+    <ellipse rx="10.2" ry="7.2" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-8.4 0 C-3.1 -3.2 3.1 3.2 8.4 0" fill="none" stroke="#120804" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="10.2" ry="7.2" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(1047.9 694.8) rotate(136.5)">
+    <ellipse rx="11.4" ry="8" fill="#61391F"/>
+    <ellipse rx="11.4" ry="8" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9.3 0 C-3.4 -3.6 3.4 3.6 9.3 0" fill="none" stroke="#120804" stroke-width="1.3" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11.4" ry="8" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(898.5 695.2) rotate(55.8)">
+    <ellipse rx="10.9" ry="7.6" fill="#3E2312"/>
+    <ellipse rx="10.9" ry="7.6" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-8.9 0 C-3.3 -3.4 3.3 3.4 8.9 0" fill="none" stroke="#120804" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="10.9" ry="7.6" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(891.4 695.3) rotate(53.1)">
+    <ellipse rx="13.8" ry="9.6" fill="#5A321B"/>
+    <ellipse rx="13.8" ry="9.6" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-11.3 0 C-4.1 -4.3 4.1 4.3 11.3 0" fill="none" stroke="#120804" stroke-width="1.5" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="13.8" ry="9.6" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(966.3 695.4) rotate(18.9)">
+    <ellipse rx="13" ry="9.1" fill="#4A2A17"/>
+    <ellipse rx="13" ry="9.1" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-10.6 0 C-3.9 -4.1 3.9 4.1 10.6 0" fill="none" stroke="#120804" stroke-width="1.5" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="13" ry="9.1" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(840 695.7) rotate(18.9)">
+    <ellipse rx="13.2" ry="9.2" fill="#5A321B"/>
+    <ellipse rx="13.2" ry="9.2" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-10.8 0 C-3.9 -4.2 3.9 4.2 10.8 0" fill="none" stroke="#120804" stroke-width="1.5" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="13.2" ry="9.2" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(834 695.8) rotate(178)">
+    <ellipse rx="13.1" ry="9.2" fill="#4A2A17"/>
+    <ellipse rx="13.1" ry="9.2" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-10.8 0 C-3.9 -4.1 3.9 4.1 10.8 0" fill="none" stroke="#120804" stroke-width="1.5" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="13.1" ry="9.2" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(853.1 696.2) rotate(14.5)">
+    <ellipse rx="10.5" ry="7.4" fill="#5A321B"/>
+    <ellipse rx="10.5" ry="7.4" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-8.6 0 C-3.2 -3.3 3.2 3.3 8.6 0" fill="none" stroke="#120804" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="10.5" ry="7.4" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(917.8 696.5) rotate(72.4)">
+    <ellipse rx="11.4" ry="8" fill="#5A321B"/>
+    <ellipse rx="11.4" ry="8" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9.3 0 C-3.4 -3.6 3.4 3.6 9.3 0" fill="none" stroke="#120804" stroke-width="1.3" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11.4" ry="8" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(947.4 696.7) rotate(151.7)">
+    <ellipse rx="10.5" ry="7.4" fill="#3E2312"/>
+    <ellipse rx="10.5" ry="7.4" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-8.6 0 C-3.2 -3.3 3.2 3.3 8.6 0" fill="none" stroke="#120804" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="10.5" ry="7.4" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(976.5 696.8) rotate(98.5)">
+    <ellipse rx="13.4" ry="9.4" fill="#4A2A17"/>
+    <ellipse rx="13.4" ry="9.4" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-11 0 C-4 -4.2 4 4.2 11 0" fill="none" stroke="#120804" stroke-width="1.5" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="13.4" ry="9.4" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(846.4 696.8) rotate(84.5)">
+    <ellipse rx="10.3" ry="7.2" fill="#5A321B"/>
+    <ellipse rx="10.3" ry="7.2" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-8.5 0 C-3.1 -3.3 3.1 3.3 8.5 0" fill="none" stroke="#120804" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="10.3" ry="7.2" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(790.2 697) rotate(132.5)">
+    <ellipse rx="10.4" ry="7.3" fill="#5A321B"/>
+    <ellipse rx="10.4" ry="7.3" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-8.5 0 C-3.1 -3.3 3.1 3.3 8.5 0" fill="none" stroke="#120804" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="10.4" ry="7.3" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(882.8 697.2) rotate(73.5)">
+    <ellipse rx="10.4" ry="7.3" fill="#3E2312"/>
+    <ellipse rx="10.4" ry="7.3" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-8.5 0 C-3.1 -3.3 3.1 3.3 8.5 0" fill="none" stroke="#120804" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="10.4" ry="7.3" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(844.9 697.4) rotate(152.6)">
+    <ellipse rx="10.6" ry="7.4" fill="#61391F"/>
+    <ellipse rx="10.6" ry="7.4" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-8.7 0 C-3.2 -3.4 3.2 3.4 8.7 0" fill="none" stroke="#120804" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="10.6" ry="7.4" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(938.9 697.5) rotate(119.7)">
+    <ellipse rx="10.5" ry="7.3" fill="#4A2A17"/>
+    <ellipse rx="10.5" ry="7.3" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-8.6 0 C-3.1 -3.3 3.1 3.3 8.6 0" fill="none" stroke="#120804" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="10.5" ry="7.3" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(914.2 697.6) rotate(121)">
+    <ellipse rx="12.1" ry="8.5" fill="#4A2A17"/>
+    <ellipse rx="12.1" ry="8.5" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9.9 0 C-3.6 -3.8 3.6 3.8 9.9 0" fill="none" stroke="#120804" stroke-width="1.4" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="12.1" ry="8.5" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(968.6 697.8) rotate(26.9)">
+    <ellipse rx="13.2" ry="9.2" fill="#3E2312"/>
+    <ellipse rx="13.2" ry="9.2" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-10.8 0 C-4 -4.2 4 4.2 10.8 0" fill="none" stroke="#120804" stroke-width="1.5" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="13.2" ry="9.2" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(817.4 697.9) rotate(73.7)">
+    <ellipse rx="10.6" ry="7.4" fill="#3E2312"/>
+    <ellipse rx="10.6" ry="7.4" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-8.7 0 C-3.2 -3.4 3.2 3.4 8.7 0" fill="none" stroke="#120804" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="10.6" ry="7.4" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(898.2 698) rotate(135.3)">
+    <ellipse rx="13.5" ry="9.5" fill="#61391F"/>
+    <ellipse rx="13.5" ry="9.5" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-11.1 0 C-4.1 -4.3 4.1 4.3 11.1 0" fill="none" stroke="#120804" stroke-width="1.5" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="13.5" ry="9.5" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(984 698.1) rotate(156)">
+    <ellipse rx="12.8" ry="9" fill="#3E2312"/>
+    <ellipse rx="12.8" ry="9" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-10.5 0 C-3.9 -4.1 3.9 4.1 10.5 0" fill="none" stroke="#120804" stroke-width="1.4" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="12.8" ry="9" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(889.3 698.3) rotate(143.8)">
+    <ellipse rx="13.4" ry="9.4" fill="#3E2312"/>
+    <ellipse rx="13.4" ry="9.4" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-11 0 C-4 -4.2 4 4.2 11 0" fill="none" stroke="#120804" stroke-width="1.5" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="13.4" ry="9.4" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(875.7 698.3) rotate(53.2)">
+    <ellipse rx="10.6" ry="7.4" fill="#3E2312"/>
+    <ellipse rx="10.6" ry="7.4" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-8.7 0 C-3.2 -3.4 3.2 3.4 8.7 0" fill="none" stroke="#120804" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="10.6" ry="7.4" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(1021.1 698.4) rotate(146.3)">
+    <ellipse rx="13.1" ry="9.2" fill="#4A2A17"/>
+    <ellipse rx="13.1" ry="9.2" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-10.8 0 C-3.9 -4.1 3.9 4.1 10.8 0" fill="none" stroke="#120804" stroke-width="1.5" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="13.1" ry="9.2" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(1011 698.5) rotate(26.7)">
+    <ellipse rx="12.7" ry="8.9" fill="#5A321B"/>
+    <ellipse rx="12.7" ry="8.9" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-10.4 0 C-3.8 -4 3.8 4 10.4 0" fill="none" stroke="#120804" stroke-width="1.4" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="12.7" ry="8.9" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(939.1 698.7) rotate(6.9)">
+    <ellipse rx="12.7" ry="8.9" fill="#5A321B"/>
+    <ellipse rx="12.7" ry="8.9" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-10.4 0 C-3.8 -4 3.8 4 10.4 0" fill="none" stroke="#120804" stroke-width="1.4" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="12.7" ry="8.9" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(892.3 699.1) rotate(57.6)">
+    <ellipse rx="11.3" ry="7.9" fill="#5A321B"/>
+    <ellipse rx="11.3" ry="7.9" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9.3 0 C-3.4 -3.6 3.4 3.6 9.3 0" fill="none" stroke="#120804" stroke-width="1.3" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11.3" ry="7.9" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(948.7 699.1) rotate(175.8)">
+    <ellipse rx="13.1" ry="9.2" fill="#4A2A17"/>
+    <ellipse rx="13.1" ry="9.2" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-10.8 0 C-3.9 -4.1 3.9 4.1 10.8 0" fill="none" stroke="#120804" stroke-width="1.5" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="13.1" ry="9.2" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(965.4 699.1) rotate(144.8)">
+    <ellipse rx="11" ry="7.7" fill="#3E2312"/>
+    <ellipse rx="11" ry="7.7" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9 0 C-3.3 -3.5 3.3 3.5 9 0" fill="none" stroke="#120804" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11" ry="7.7" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(901.6 699.3) rotate(122.1)">
+    <ellipse rx="12.8" ry="9" fill="#61391F"/>
+    <ellipse rx="12.8" ry="9" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-10.5 0 C-3.9 -4.1 3.9 4.1 10.5 0" fill="none" stroke="#120804" stroke-width="1.4" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="12.8" ry="9" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(1014.1 699.3) rotate(18.4)">
+    <ellipse rx="10.3" ry="7.2" fill="#4A2A17"/>
+    <ellipse rx="10.3" ry="7.2" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-8.4 0 C-3.1 -3.2 3.1 3.2 8.4 0" fill="none" stroke="#120804" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="10.3" ry="7.2" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(872.8 699.5) rotate(12.4)">
+    <ellipse rx="11.3" ry="7.9" fill="#5A321B"/>
+    <ellipse rx="11.3" ry="7.9" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9.3 0 C-3.4 -3.6 3.4 3.6 9.3 0" fill="none" stroke="#120804" stroke-width="1.3" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11.3" ry="7.9" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(1008.3 699.6) rotate(153.9)">
+    <ellipse rx="11.9" ry="8.4" fill="#4A2A17"/>
+    <ellipse rx="11.9" ry="8.4" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9.8 0 C-3.6 -3.8 3.6 3.8 9.8 0" fill="none" stroke="#120804" stroke-width="1.3" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11.9" ry="8.4" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(914.8 700) rotate(106.1)">
+    <ellipse rx="13.6" ry="9.5" fill="#5A321B"/>
+    <ellipse rx="13.6" ry="9.5" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-11.1 0 C-4.1 -4.3 4.1 4.3 11.1 0" fill="none" stroke="#120804" stroke-width="1.5" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="13.6" ry="9.5" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(785.4 700) rotate(113.8)">
+    <ellipse rx="13.2" ry="9.2" fill="#5A321B"/>
+    <ellipse rx="13.2" ry="9.2" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-10.8 0 C-4 -4.2 4 4.2 10.8 0" fill="none" stroke="#120804" stroke-width="1.5" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="13.2" ry="9.2" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(989.1 700.1) rotate(105.8)">
+    <ellipse rx="12.9" ry="9.1" fill="#5A321B"/>
+    <ellipse rx="12.9" ry="9.1" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-10.6 0 C-3.9 -4.1 3.9 4.1 10.6 0" fill="none" stroke="#120804" stroke-width="1.4" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="12.9" ry="9.1" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(923.5 700.1) rotate(148.5)">
+    <ellipse rx="10.7" ry="7.5" fill="#5A321B"/>
+    <ellipse rx="10.7" ry="7.5" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-8.8 0 C-3.2 -3.4 3.2 3.4 8.8 0" fill="none" stroke="#120804" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="10.7" ry="7.5" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(911.5 700.1) rotate(134.3)">
+    <ellipse rx="11.7" ry="8.2" fill="#3E2312"/>
+    <ellipse rx="11.7" ry="8.2" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9.6 0 C-3.5 -3.7 3.5 3.7 9.6 0" fill="none" stroke="#120804" stroke-width="1.3" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11.7" ry="8.2" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(829.6 700.3) rotate(85.1)">
+    <ellipse rx="10.9" ry="7.6" fill="#5A321B"/>
+    <ellipse rx="10.9" ry="7.6" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-8.9 0 C-3.3 -3.4 3.3 3.4 8.9 0" fill="none" stroke="#120804" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="10.9" ry="7.6" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(850.7 700.6) rotate(172.9)">
+    <ellipse rx="10.5" ry="7.4" fill="#4A2A17"/>
+    <ellipse rx="10.5" ry="7.4" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-8.6 0 C-3.2 -3.3 3.2 3.3 8.6 0" fill="none" stroke="#120804" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="10.5" ry="7.4" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(1049.6 700.7) rotate(112.7)">
+    <ellipse rx="12.1" ry="8.4" fill="#61391F"/>
+    <ellipse rx="12.1" ry="8.4" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9.9 0 C-3.6 -3.8 3.6 3.8 9.9 0" fill="none" stroke="#120804" stroke-width="1.4" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="12.1" ry="8.4" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(998.6 700.8) rotate(26.5)">
+    <ellipse rx="12.7" ry="8.9" fill="#61391F"/>
+    <ellipse rx="12.7" ry="8.9" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-10.4 0 C-3.8 -4 3.8 4 10.4 0" fill="none" stroke="#120804" stroke-width="1.4" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="12.7" ry="8.9" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(1014 701) rotate(112.5)">
+    <ellipse rx="12.3" ry="8.6" fill="#61391F"/>
+    <ellipse rx="12.3" ry="8.6" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-10.1 0 C-3.7 -3.9 3.7 3.9 10.1 0" fill="none" stroke="#120804" stroke-width="1.4" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="12.3" ry="8.6" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(895 701.2) rotate(136.5)">
+    <ellipse rx="13.4" ry="9.4" fill="#3E2312"/>
+    <ellipse rx="13.4" ry="9.4" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-11 0 C-4 -4.2 4 4.2 11 0" fill="none" stroke="#120804" stroke-width="1.5" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="13.4" ry="9.4" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(1035.6 701.2) rotate(64.2)">
+    <ellipse rx="11.7" ry="8.2" fill="#4A2A17"/>
+    <ellipse rx="11.7" ry="8.2" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9.6 0 C-3.5 -3.7 3.5 3.7 9.6 0" fill="none" stroke="#120804" stroke-width="1.3" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11.7" ry="8.2" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(964.6 701.9) rotate(154.3)">
+    <ellipse rx="12.1" ry="8.5" fill="#3E2312"/>
+    <ellipse rx="12.1" ry="8.5" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9.9 0 C-3.6 -3.8 3.6 3.8 9.9 0" fill="none" stroke="#120804" stroke-width="1.4" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="12.1" ry="8.5" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(945.7 702) rotate(74.2)">
+    <ellipse rx="10.9" ry="7.6" fill="#3E2312"/>
+    <ellipse rx="10.9" ry="7.6" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-8.9 0 C-3.3 -3.4 3.3 3.4 8.9 0" fill="none" stroke="#120804" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="10.9" ry="7.6" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(935 702.4) rotate(125.4)">
+    <ellipse rx="10.7" ry="7.5" fill="#5A321B"/>
+    <ellipse rx="10.7" ry="7.5" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-8.7 0 C-3.2 -3.4 3.2 3.4 8.7 0" fill="none" stroke="#120804" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="10.7" ry="7.5" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(957.7 702.8) rotate(78.2)">
+    <ellipse rx="12.7" ry="8.9" fill="#3E2312"/>
+    <ellipse rx="12.7" ry="8.9" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-10.4 0 C-3.8 -4 3.8 4 10.4 0" fill="none" stroke="#120804" stroke-width="1.4" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="12.7" ry="8.9" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(933.9 702.9) rotate(19)">
+    <ellipse rx="13.3" ry="9.3" fill="#5A321B"/>
+    <ellipse rx="13.3" ry="9.3" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-10.9 0 C-4 -4.2 4 4.2 10.9 0" fill="none" stroke="#120804" stroke-width="1.5" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="13.3" ry="9.3" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(881.3 703.2) rotate(65)">
+    <ellipse rx="11.3" ry="7.9" fill="#5A321B"/>
+    <ellipse rx="11.3" ry="7.9" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9.3 0 C-3.4 -3.6 3.4 3.6 9.3 0" fill="none" stroke="#120804" stroke-width="1.3" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11.3" ry="7.9" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(892.5 703.4) rotate(108)">
+    <ellipse rx="13.7" ry="9.6" fill="#4A2A17"/>
+    <ellipse rx="13.7" ry="9.6" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-11.2 0 C-4.1 -4.3 4.1 4.3 11.2 0" fill="none" stroke="#120804" stroke-width="1.5" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="13.7" ry="9.6" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(966.5 703.5) rotate(133.9)">
+    <ellipse rx="11.9" ry="8.4" fill="#61391F"/>
+    <ellipse rx="11.9" ry="8.4" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9.8 0 C-3.6 -3.8 3.6 3.8 9.8 0" fill="none" stroke="#120804" stroke-width="1.3" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11.9" ry="8.4" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(985.1 703.5) rotate(114.3)">
+    <ellipse rx="10.7" ry="7.5" fill="#5A321B"/>
+    <ellipse rx="10.7" ry="7.5" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-8.8 0 C-3.2 -3.4 3.2 3.4 8.8 0" fill="none" stroke="#120804" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="10.7" ry="7.5" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(868.5 703.9) rotate(79.6)">
+    <ellipse rx="10.9" ry="7.6" fill="#5A321B"/>
+    <ellipse rx="10.9" ry="7.6" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-8.9 0 C-3.3 -3.4 3.3 3.4 8.9 0" fill="none" stroke="#120804" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="10.9" ry="7.6" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(921 704) rotate(131.4)">
+    <ellipse rx="12.3" ry="8.6" fill="#3E2312"/>
+    <ellipse rx="12.3" ry="8.6" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-10.1 0 C-3.7 -3.9 3.7 3.9 10.1 0" fill="none" stroke="#120804" stroke-width="1.4" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="12.3" ry="8.6" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(997.3 704) rotate(114.8)">
+    <ellipse rx="11.7" ry="8.2" fill="#61391F"/>
+    <ellipse rx="11.7" ry="8.2" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9.6 0 C-3.5 -3.7 3.5 3.7 9.6 0" fill="none" stroke="#120804" stroke-width="1.3" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11.7" ry="8.2" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(872.5 704.1) rotate(156.7)">
+    <ellipse rx="10.4" ry="7.3" fill="#3E2312"/>
+    <ellipse rx="10.4" ry="7.3" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-8.6 0 C-3.1 -3.3 3.1 3.3 8.6 0" fill="none" stroke="#120804" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="10.4" ry="7.3" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(945.2 704.2) rotate(52.8)">
+    <ellipse rx="10.4" ry="7.3" fill="#4A2A17"/>
+    <ellipse rx="10.4" ry="7.3" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-8.5 0 C-3.1 -3.3 3.1 3.3 8.5 0" fill="none" stroke="#120804" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="10.4" ry="7.3" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(950.1 704.5) rotate(58)">
+    <ellipse rx="12.4" ry="8.7" fill="#3E2312"/>
+    <ellipse rx="12.4" ry="8.7" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-10.1 0 C-3.7 -3.9 3.7 3.9 10.1 0" fill="none" stroke="#120804" stroke-width="1.4" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="12.4" ry="8.7" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(951.1 704.8) rotate(157.9)">
+    <ellipse rx="10.8" ry="7.5" fill="#4A2A17"/>
+    <ellipse rx="10.8" ry="7.5" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-8.8 0 C-3.2 -3.4 3.2 3.4 8.8 0" fill="none" stroke="#120804" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="10.8" ry="7.5" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(871.3 705.1) rotate(89.1)">
+    <ellipse rx="13.4" ry="9.4" fill="#61391F"/>
+    <ellipse rx="13.4" ry="9.4" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-11 0 C-4 -4.2 4 4.2 11 0" fill="none" stroke="#120804" stroke-width="1.5" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="13.4" ry="9.4" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(976.9 705.4) rotate(38.5)">
+    <ellipse rx="13" ry="9.1" fill="#3E2312"/>
+    <ellipse rx="13" ry="9.1" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-10.7 0 C-3.9 -4.1 3.9 4.1 10.7 0" fill="none" stroke="#120804" stroke-width="1.5" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="13" ry="9.1" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(910.6 705.4) rotate(155.4)">
+    <ellipse rx="11.5" ry="8.1" fill="#61391F"/>
+    <ellipse rx="11.5" ry="8.1" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9.5 0 C-3.5 -3.6 3.5 3.6 9.5 0" fill="none" stroke="#120804" stroke-width="1.3" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11.5" ry="8.1" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(768.7 705.6) rotate(168.9)">
+    <ellipse rx="13.6" ry="9.5" fill="#61391F"/>
+    <ellipse rx="13.6" ry="9.5" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-11.2 0 C-4.1 -4.3 4.1 4.3 11.2 0" fill="none" stroke="#120804" stroke-width="1.5" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="13.6" ry="9.5" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(993.8 706) rotate(90.9)">
+    <ellipse rx="12.6" ry="8.8" fill="#4A2A17"/>
+    <ellipse rx="12.6" ry="8.8" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-10.3 0 C-3.8 -4 3.8 4 10.3 0" fill="none" stroke="#120804" stroke-width="1.4" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="12.6" ry="8.8" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(977.7 706) rotate(170.9)">
+    <ellipse rx="11" ry="7.7" fill="#4A2A17"/>
+    <ellipse rx="11" ry="7.7" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9 0 C-3.3 -3.5 3.3 3.5 9 0" fill="none" stroke="#120804" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11" ry="7.7" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(1015.5 706.1) rotate(33.1)">
+    <ellipse rx="13.6" ry="9.5" fill="#61391F"/>
+    <ellipse rx="13.6" ry="9.5" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-11.2 0 C-4.1 -4.3 4.1 4.3 11.2 0" fill="none" stroke="#120804" stroke-width="1.5" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="13.6" ry="9.5" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(1074.3 706.1) rotate(136.3)">
+    <ellipse rx="13" ry="9.1" fill="#61391F"/>
+    <ellipse rx="13" ry="9.1" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-10.7 0 C-3.9 -4.1 3.9 4.1 10.7 0" fill="none" stroke="#120804" stroke-width="1.5" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="13" ry="9.1" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(898.3 706.3) rotate(110.2)">
+    <ellipse rx="12.2" ry="8.5" fill="#3E2312"/>
+    <ellipse rx="12.2" ry="8.5" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-10 0 C-3.6 -3.8 3.6 3.8 10 0" fill="none" stroke="#120804" stroke-width="1.4" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="12.2" ry="8.5" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(1039.2 706.6) rotate(9.5)">
+    <ellipse rx="13.6" ry="9.5" fill="#3E2312"/>
+    <ellipse rx="13.6" ry="9.5" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-11.1 0 C-4.1 -4.3 4.1 4.3 11.1 0" fill="none" stroke="#120804" stroke-width="1.5" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="13.6" ry="9.5" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(986 706.6) rotate(76.4)">
+    <ellipse rx="12.2" ry="8.5" fill="#4A2A17"/>
+    <ellipse rx="12.2" ry="8.5" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-10 0 C-3.6 -3.8 3.6 3.8 10 0" fill="none" stroke="#120804" stroke-width="1.4" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="12.2" ry="8.5" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(823.4 707) rotate(129.4)">
+    <ellipse rx="10.3" ry="7.2" fill="#4A2A17"/>
+    <ellipse rx="10.3" ry="7.2" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-8.5 0 C-3.1 -3.3 3.1 3.3 8.5 0" fill="none" stroke="#120804" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="10.3" ry="7.2" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(899 707.2) rotate(74.9)">
+    <ellipse rx="10.5" ry="7.4" fill="#61391F"/>
+    <ellipse rx="10.5" ry="7.4" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-8.6 0 C-3.2 -3.3 3.2 3.3 8.6 0" fill="none" stroke="#120804" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="10.5" ry="7.4" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(1022.8 707.5) rotate(61.8)">
+    <ellipse rx="10.3" ry="7.2" fill="#3E2312"/>
+    <ellipse rx="10.3" ry="7.2" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-8.5 0 C-3.1 -3.3 3.1 3.3 8.5 0" fill="none" stroke="#120804" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="10.3" ry="7.2" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(1098 708.2) rotate(151.5)">
+    <ellipse rx="10.5" ry="7.3" fill="#3E2312"/>
+    <ellipse rx="10.5" ry="7.3" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-8.6 0 C-3.1 -3.3 3.1 3.3 8.6 0" fill="none" stroke="#120804" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="10.5" ry="7.3" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(845.1 708.2) rotate(83)">
+    <ellipse rx="12.4" ry="8.7" fill="#5A321B"/>
+    <ellipse rx="12.4" ry="8.7" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-10.2 0 C-3.7 -3.9 3.7 3.9 10.2 0" fill="none" stroke="#120804" stroke-width="1.4" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="12.4" ry="8.7" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(887.7 708.3) rotate(29.6)">
+    <ellipse rx="12.9" ry="9" fill="#4A2A17"/>
+    <ellipse rx="12.9" ry="9" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-10.6 0 C-3.9 -4.1 3.9 4.1 10.6 0" fill="none" stroke="#120804" stroke-width="1.4" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="12.9" ry="9" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(962.1 708.5) rotate(81)">
+    <ellipse rx="10.9" ry="7.6" fill="#5A321B"/>
+    <ellipse rx="10.9" ry="7.6" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-8.9 0 C-3.3 -3.4 3.3 3.4 8.9 0" fill="none" stroke="#120804" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="10.9" ry="7.6" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(1099.6 708.6) rotate(63.9)">
+    <ellipse rx="11.4" ry="8" fill="#3E2312"/>
+    <ellipse rx="11.4" ry="8" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9.3 0 C-3.4 -3.6 3.4 3.6 9.3 0" fill="none" stroke="#120804" stroke-width="1.3" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11.4" ry="8" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(996.1 708.8) rotate(27.4)">
+    <ellipse rx="12.4" ry="8.7" fill="#61391F"/>
+    <ellipse rx="12.4" ry="8.7" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-10.1 0 C-3.7 -3.9 3.7 3.9 10.1 0" fill="none" stroke="#120804" stroke-width="1.4" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="12.4" ry="8.7" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(795 708.8) rotate(37.3)">
+    <ellipse rx="10.8" ry="7.5" fill="#5A321B"/>
+    <ellipse rx="10.8" ry="7.5" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-8.8 0 C-3.2 -3.4 3.2 3.4 8.8 0" fill="none" stroke="#120804" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="10.8" ry="7.5" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(765.5 709.4) rotate(64.3)">
+    <ellipse rx="13.8" ry="9.7" fill="#61391F"/>
+    <ellipse rx="13.8" ry="9.7" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-11.3 0 C-4.1 -4.4 4.1 4.4 11.3 0" fill="none" stroke="#120804" stroke-width="1.5" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="13.8" ry="9.7" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(935.1 709.4) rotate(168.1)">
+    <ellipse rx="12.1" ry="8.5" fill="#61391F"/>
+    <ellipse rx="12.1" ry="8.5" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9.9 0 C-3.6 -3.8 3.6 3.8 9.9 0" fill="none" stroke="#120804" stroke-width="1.4" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="12.1" ry="8.5" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(1101.1 709.5) rotate(170.8)">
+    <ellipse rx="10.5" ry="7.4" fill="#61391F"/>
+    <ellipse rx="10.5" ry="7.4" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-8.6 0 C-3.2 -3.3 3.2 3.3 8.6 0" fill="none" stroke="#120804" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="10.5" ry="7.4" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(791.5 709.6) rotate(135.5)">
+    <ellipse rx="13.3" ry="9.3" fill="#5A321B"/>
+    <ellipse rx="13.3" ry="9.3" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-10.9 0 C-4 -4.2 4 4.2 10.9 0" fill="none" stroke="#120804" stroke-width="1.5" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="13.3" ry="9.3" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(876 709.6) rotate(73.4)">
+    <ellipse rx="12.7" ry="8.9" fill="#4A2A17"/>
+    <ellipse rx="12.7" ry="8.9" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-10.4 0 C-3.8 -4 3.8 4 10.4 0" fill="none" stroke="#120804" stroke-width="1.4" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="12.7" ry="8.9" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(918.7 709.7) rotate(77.2)">
+    <ellipse rx="10.6" ry="7.4" fill="#61391F"/>
+    <ellipse rx="10.6" ry="7.4" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-8.7 0 C-3.2 -3.3 3.2 3.3 8.7 0" fill="none" stroke="#120804" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="10.6" ry="7.4" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(991.3 710.1) rotate(55.6)">
+    <ellipse rx="12" ry="8.4" fill="#5A321B"/>
+    <ellipse rx="12" ry="8.4" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9.9 0 C-3.6 -3.8 3.6 3.8 9.9 0" fill="none" stroke="#120804" stroke-width="1.3" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="12" ry="8.4" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(1048.6 710.3) rotate(152.3)">
+    <ellipse rx="12.6" ry="8.8" fill="#4A2A17"/>
+    <ellipse rx="12.6" ry="8.8" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-10.3 0 C-3.8 -4 3.8 4 10.3 0" fill="none" stroke="#120804" stroke-width="1.4" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="12.6" ry="8.8" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(781 710.5) rotate(95.1)">
+    <ellipse rx="10.9" ry="7.6" fill="#3E2312"/>
+    <ellipse rx="10.9" ry="7.6" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-8.9 0 C-3.3 -3.4 3.3 3.4 8.9 0" fill="none" stroke="#120804" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="10.9" ry="7.6" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(1065.9 710.8) rotate(122.4)">
+    <ellipse rx="12.7" ry="8.9" fill="#61391F"/>
+    <ellipse rx="12.7" ry="8.9" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-10.4 0 C-3.8 -4 3.8 4 10.4 0" fill="none" stroke="#120804" stroke-width="1.4" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="12.7" ry="8.9" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(925.8 710.8) rotate(147.2)">
+    <ellipse rx="11.7" ry="8.2" fill="#4A2A17"/>
+    <ellipse rx="11.7" ry="8.2" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9.6 0 C-3.5 -3.7 3.5 3.7 9.6 0" fill="none" stroke="#120804" stroke-width="1.3" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11.7" ry="8.2" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(958.5 710.8) rotate(178.5)">
+    <ellipse rx="10.4" ry="7.3" fill="#5A321B"/>
+    <ellipse rx="10.4" ry="7.3" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-8.6 0 C-3.1 -3.3 3.1 3.3 8.6 0" fill="none" stroke="#120804" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="10.4" ry="7.3" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(871.9 710.9) rotate(154.7)">
+    <ellipse rx="11.9" ry="8.3" fill="#3E2312"/>
+    <ellipse rx="11.9" ry="8.3" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9.8 0 C-3.6 -3.8 3.6 3.8 9.8 0" fill="none" stroke="#120804" stroke-width="1.3" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11.9" ry="8.3" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(980.9 711.4) rotate(14)">
+    <ellipse rx="12.5" ry="8.7" fill="#3E2312"/>
+    <ellipse rx="12.5" ry="8.7" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-10.2 0 C-3.7 -3.9 3.7 3.9 10.2 0" fill="none" stroke="#120804" stroke-width="1.4" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="12.5" ry="8.7" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(1097.9 711.4) rotate(46.1)">
+    <ellipse rx="12.8" ry="8.9" fill="#3E2312"/>
+    <ellipse rx="12.8" ry="8.9" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-10.5 0 C-3.8 -4 3.8 4 10.5 0" fill="none" stroke="#120804" stroke-width="1.4" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="12.8" ry="8.9" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><g transform="translate(966.7 711.7) rotate(163.8)">
+    <ellipse rx="11.5" ry="8.1" fill="#4A2A17"/>
+    <ellipse rx="11.5" ry="8.1" fill="url(#beanHi)" opacity="1"/>
+    <path d="M-9.5 0 C-3.5 -3.6 3.5 3.6 9.5 0" fill="none" stroke="#120804" stroke-width="1.3" stroke-linecap="round" opacity=".85"/>
+    <ellipse rx="11.5" ry="8.1" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  </g><path d="M930 600 V690" stroke="#4A3D35" stroke-width="10"/><path d="M930 690 L1060 700" stroke="#F1C979" stroke-width="5" stroke-linecap="round" opacity=".7"/><path d="M840 650 c-16 -26 16 -46 0 -72 c-16 -26 16 -46 0 -70" fill="none" stroke="#F4EDE0" stroke-width="3" stroke-linecap="round" opacity=".16"/><path d="M900 650 c-16 -26 16 -46 0 -72 c-16 -26 16 -46 0 -70" fill="none" stroke="#F4EDE0" stroke-width="3" stroke-linecap="round" opacity=".16"/><path d="M960 650 c-16 -26 16 -46 0 -72 c-16 -26 16 -46 0 -70" fill="none" stroke="#F4EDE0" stroke-width="3" stroke-linecap="round" opacity=".16"/><path d="M1020 650 c-16 -26 16 -46 0 -72 c-16 -26 16 -46 0 -70" fill="none" stroke="#F4EDE0" stroke-width="3" stroke-linecap="round" opacity=".16"/><text x="72" y="104" font-family="DM Sans" font-weight="700" font-size="17" letter-spacing="5" fill="#D4A24C" opacity=".85">02 · DRUM ROAST</text>
+  <rect width="1200" height="900" filter="url(#grain)" opacity=".55"/>
+  <rect x="14" y="14" width="1172" height="872" rx="18" fill="none" stroke="#D4A24C" stroke-opacity=".28" stroke-width="1.5"/>
+</svg>

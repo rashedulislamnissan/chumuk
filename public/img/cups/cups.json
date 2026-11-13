@@ -1,0 +1,10 @@
+{
+  "cup_pair": {
+    "file": "cups/cup_pair.webp",
+    "aspect": 1.211
+  },
+  "cup_clay": {
+    "file": "cups/cup_clay.webp",
+    "aspect": 1.045
+  }
+}
