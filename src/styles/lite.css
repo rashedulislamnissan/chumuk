@@ -41,7 +41,7 @@
 @media (max-width: 639px) {
   .lite-stage__row { grid-template-columns: .72fr 1.4fr .72fr; }
   .lite-bag__cap { display: none; }
-  .lite .stage { padding-bottom: 72px; }
+  .lite .stage { padding-bottom: 118px; }
 }
 @media (prefers-reduced-motion: reduce) {
   .lite-stage, .lite-bag--side { transition: none; }

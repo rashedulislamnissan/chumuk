@@ -201,7 +201,8 @@ main { position: relative; z-index: 5; }
 @media (max-width: 639px) {
   .journey { height: 800vh; }
   .stage__labels { display: none; }
-  .stage__dots { left: 50%; top: auto; bottom: 13px; transform: translateX(-50%); display: flex; }
+  /* above Netlify's free-plan "Powered by Netlify" badge (bottom-right, ~12–52 px from the bottom) */
+  .stage__dots { left: 50%; top: auto; bottom: 60px; transform: translateX(-50%); display: flex; }
   .stage__dots button[aria-selected="true"]::after { width: 22px; height: 6px; }
   .stage__mobile-label {
     display: block; position: absolute; left: var(--gutter); right: var(--gutter); top: 0;

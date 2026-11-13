@@ -268,7 +268,8 @@
 
 /* ---------- Toast ---------- */
 .toast {
-  position: fixed; left: 50%; bottom: 24px; z-index: 40; display: flex; align-items: center; gap: 16px;
+  /* bottom 72px: clear of Netlify's free-plan badge in the bottom-right corner */
+  position: fixed; left: 50%; bottom: 72px; z-index: 40; display: flex; align-items: center; gap: 16px;
   padding: 12px 14px 12px 20px; border-radius: 999px; background: rgb(36 28 23 / .92); border: 1px solid rgb(var(--glow-amber) / .45);
   backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); box-shadow: 0 14px 40px rgb(0 0 0 / .5);
   font-size: 14px; font-weight: 600; white-space: nowrap;

@@ -101,9 +101,10 @@ export class StageUI {
 
     // CTA under the centre bag; mobile label above it
     const foot = s.project(0, 0, -1, W, H);
-    const ctaY = Math.min(H - (W < 640 ? 150 : 70), foot.y + 18);
+    // phone: keep CTA + caption above the dots (which sit above the Netlify badge)
+    const ctaY = Math.min(H - (W < 640 ? 196 : 70), foot.y + 18);
     this.cta.style.transform = `translate(-50%, ${ctaY}px)`;
-    this.mobileLabel.style.transform = `translateY(${Math.min(H - 96, ctaY + 58)}px)`;
+    this.mobileLabel.style.transform = `translateY(${Math.min(H - 140, ctaY + 58)}px)`;
   }
 
   private arc(i: number, x0: number, y0: number, x1: number, y1: number) {
